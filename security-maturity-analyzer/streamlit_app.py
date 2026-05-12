@@ -264,7 +264,7 @@ with col_radar:
         r=scores_radar + [scores_radar[0]],
         theta=labels_radar + [labels_radar[0]],
         fill="toself",
-        fillcolor=C["primary"] + "33",
+        fillcolor=hex_rgba(C["primary"], 0.2),
         line=dict(color=C["primary"], width=2.5),
         name="Score por dominio",
         hovertemplate="<b>%{theta}</b><br>Score: %{r:.1f}/100<extra></extra>",

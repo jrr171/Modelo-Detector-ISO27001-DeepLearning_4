@@ -1,0 +1,400 @@
+Apr 13 01:27:58 srv-comercio-01 auditd[8455]: type=USER_AUTH msg: user=dave res=success
+Apr 23 18:28:40 srv-comercio-01 kernel[1193]: Firewall rule applied: ACCEPT tcp from 185.220.101.5
+May 08 14:03:59 srv-comercio-01 cron[1716]: pam_unix(cron:session): session opened for user root
+Apr 12 18:18:17 srv-comercio-01 kernel[1153]: USB storage device blocked by policy
+May 08 06:04:28 srv-comercio-01 kernel[4314]: UPS power failure running on battery
+May 02 06:43:49 srv-comercio-01 kernel[6036]: Firewall rule applied: ACCEPT tcp from 80.82.77.33
+May 09 21:01:02 srv-comercio-01 kernel[9906]: iptables DROP: SYN packet from 185.220.101.5 port 22
+Apr 26 08:44:04 srv-comercio-01 kernel[2680]: UPS power failure running on battery
+Apr 29 09:43:42 srv-comercio-01 kernel[4713]: Certificate expired: CN=example.com
+Apr 20 23:00:07 srv-comercio-01 kernel[7303]: iptables DROP: SYN packet from 203.0.113.77 port 22
+May 05 18:34:42 srv-comercio-01 kernel[2804]: iptables DROP: SYN packet from 80.82.77.33 port 22
+May 01 18:56:02 srv-comercio-01 kernel[2939]: SSL_ERROR_RX_RECORD_TOO_LONG from 103.21.244.0
+Apr 26 11:14:53 srv-comercio-01 kernel[8022]: Certificate expired: CN=example.com
+Apr 23 12:30:08 srv-comercio-01 kernel[5940]: iptables DROP: SYN packet from 45.33.32.156 port 22
+Apr 13 13:01:06 srv-comercio-01 auditd[7047]: type=USER_AUTH msg: user=postgres res=success
+Apr 18 01:43:44 srv-comercio-01 kernel[3435]: Out of memory: Kill process 3435 (python)
+Apr 16 19:45:28 srv-comercio-01 systemd[8838]: Failed to start backup.service timeout
+May 02 17:41:15 srv-comercio-01 systemd[2481]: Failed to start backup.service timeout
+Apr 29 06:08:38 srv-comercio-01 kernel[9097]: SSL_ERROR_RX_RECORD_TOO_LONG from 198.51.100.1
+Apr 30 08:17:33 srv-comercio-01 kernel[5028]: SSL handshake completed with 198.51.100.1
+Apr 25 14:28:59 srv-comercio-01 kernel[9724]: SSL_ERROR_RX_RECORD_TOO_LONG from 185.220.101.5
+May 05 10:52:51 srv-comercio-01 kernel[2429]: USB storage device blocked by policy
+Apr 12 16:54:57 srv-comercio-01 kernel[8764]: Firewall rule applied: ACCEPT tcp from 192.168.1.10
+May 03 07:43:11 srv-comercio-01 kernel[3283]: USB storage device blocked by policy
+May 06 14:49:17 srv-comercio-01 kernel[4973]: Out of memory: Kill process 4973 (python)
+Apr 19 21:08:37 srv-comercio-01 systemd[7184]: Started Daily backup service
+Apr 27 01:57:54 srv-comercio-01 kernel[2208]: Firewall rule applied: ACCEPT tcp from 192.168.1.10
+May 10 14:49:04 srv-comercio-01 kernel[3314]: SSL_ERROR_RX_RECORD_TOO_LONG from 10.0.0.22
+Apr 26 22:44:17 srv-comercio-01 kernel[3988]: SSL handshake completed with 45.33.32.156
+Apr 19 11:24:14 srv-comercio-01 kernel[7742]: Certificate expired: CN=example.com
+May 08 19:56:23 srv-comercio-01 kernel[2822]: Firewall rule applied: ACCEPT tcp from 192.168.1.10
+May 07 21:27:11 srv-comercio-01 systemd[9245]: Failed to start backup.service timeout
+May 02 23:38:37 srv-comercio-01 kernel[9222]: UPS power failure running on battery
+Apr 26 09:44:17 srv-comercio-01 sshd[2506]: Server listening on 0.0.0.0 port 22
+Apr 30 16:00:17 srv-comercio-01 kernel[4586]: SSL handshake completed with 45.33.32.156
+Apr 27 11:11:23 srv-comercio-01 systemd[8674]: Failed to start backup.service timeout
+Apr 17 10:11:37 srv-comercio-01 sshd[1895]: Server listening on 0.0.0.0 port 22
+May 10 10:14:15 srv-comercio-01 kernel[2710]: USB storage device blocked by policy
+May 03 16:18:58 srv-comercio-01 kernel[4924]: iptables DROP: SYN packet from 198.51.100.1 port 22
+May 06 04:40:24 srv-comercio-01 kernel[6064]: UPS power failure running on battery
+May 10 03:17:02 srv-comercio-01 kernel[5410]: SSL_ERROR_RX_RECORD_TOO_LONG from 192.168.1.10
+May 02 19:34:04 srv-comercio-01 systemd[1787]: Started Daily backup service
+May 06 11:04:39 srv-comercio-01 auditd[9195]: type=USER_AUTH msg: user=admin res=success
+May 02 07:55:17 srv-comercio-01 kernel[2595]: SSL handshake completed with 198.51.100.1
+Apr 24 09:22:27 srv-comercio-01 kernel[1388]: USB storage device blocked by policy
+May 08 00:23:59 srv-comercio-01 kernel[3641]: UPS power failure running on battery
+Apr 17 00:11:55 srv-comercio-01 auditd[4533]: type=USER_AUTH msg: user=dave res=failed
+Apr 17 17:31:46 srv-comercio-01 systemd[8331]: Started Daily backup service
+Apr 13 23:03:21 srv-comercio-01 systemd[1655]: Failed to start backup.service timeout
+Apr 12 17:16:24 srv-comercio-01 kernel[2228]: possible SYN flooding on port 80. Sending cookies
+Apr 18 12:17:09 srv-comercio-01 auditd[3336]: type=USER_AUTH msg: user=alice res=failed
+Apr 28 11:42:05 srv-comercio-01 cron[2541]: pam_unix(cron:session): session opened for user root
+Apr 24 10:30:59 srv-comercio-01 kernel[5589]: iptables DROP: SYN packet from 10.0.0.22 port 22
+Apr 27 13:04:08 srv-comercio-01 kernel[5226]: possible SYN flooding on port 80. Sending cookies
+May 11 09:58:46 srv-comercio-01 systemd[8999]: Failed to start backup.service timeout
+May 01 04:58:25 srv-comercio-01 systemd[8222]: Started Daily backup service
+Apr 26 07:36:08 srv-comercio-01 kernel[7769]: UPS power failure running on battery
+Apr 20 04:52:55 srv-comercio-01 kernel[5011]: USB storage device blocked by policy
+May 07 03:27:10 srv-comercio-01 kernel[7157]: iptables DROP: SYN packet from 192.168.1.15 port 22
+Apr 21 19:30:35 srv-comercio-01 kernel[8573]: possible SYN flooding on port 80. Sending cookies
+May 10 16:06:58 srv-comercio-01 kernel[2787]: UPS power failure running on battery
+Apr 30 11:48:44 srv-comercio-01 systemd[4268]: Started Daily backup service
+Apr 19 22:22:57 srv-comercio-01 cron[4483]: pam_unix(cron:session): session opened for user root
+May 08 06:43:24 srv-comercio-01 sshd[9930]: Server listening on 0.0.0.0 port 22
+May 11 10:02:37 srv-comercio-01 kernel[7230]: possible SYN flooding on port 80. Sending cookies
+Apr 15 21:04:21 srv-comercio-01 systemd[4465]: Failed to start backup.service timeout
+May 10 17:48:47 srv-comercio-01 systemd[3885]: Failed to start backup.service timeout
+Apr 15 08:19:51 srv-comercio-01 kernel[8396]: Certificate expired: CN=example.com
+May 10 08:31:16 srv-comercio-01 cron[1880]: pam_unix(cron:session): session opened for user root
+Apr 12 08:22:34 srv-comercio-01 kernel[6722]: SSL handshake completed with 10.0.0.22
+Apr 12 23:16:40 srv-comercio-01 kernel[6811]: USB storage device blocked by policy
+Apr 19 00:15:25 srv-comercio-01 kernel[2274]: Out of memory: Kill process 2274 (python)
+May 08 06:53:55 srv-comercio-01 kernel[1232]: possible SYN flooding on port 80. Sending cookies
+May 04 05:07:04 srv-comercio-01 kernel[7658]: possible SYN flooding on port 80. Sending cookies
+May 11 15:05:52 srv-comercio-01 systemd[2596]: Failed to start backup.service timeout
+May 06 10:39:52 srv-comercio-01 kernel[7185]: Certificate expired: CN=example.com
+Apr 16 10:51:45 srv-comercio-01 kernel[7066]: UPS power failure running on battery
+Apr 22 07:26:38 srv-comercio-01 systemd[9177]: Started Daily backup service
+Apr 18 11:45:05 srv-comercio-01 kernel[9571]: Out of memory: Kill process 9571 (python)
+May 07 04:14:54 srv-comercio-01 kernel[7113]: SSL handshake completed with 80.82.77.33
+Apr 15 00:08:21 srv-comercio-01 systemd[5669]: Failed to start backup.service timeout
+Apr 17 18:47:23 srv-comercio-01 kernel[2435]: Firewall rule applied: ACCEPT tcp from 203.0.113.77
+Apr 26 22:04:25 srv-comercio-01 kernel[2698]: UPS power failure running on battery
+Apr 26 03:02:02 srv-comercio-01 kernel[8276]: Certificate expired: CN=example.com
+May 05 07:17:40 srv-comercio-01 kernel[4471]: iptables DROP: SYN packet from 203.0.113.77 port 22
+May 01 07:26:06 srv-comercio-01 kernel[3038]: USB storage device blocked by policy
+Apr 17 14:20:46 srv-comercio-01 cron[7138]: pam_unix(cron:session): session opened for user root
+Apr 21 14:52:07 srv-comercio-01 kernel[7794]: UPS power failure running on battery
+May 12 17:02:41 srv-comercio-01 kernel[1254]: USB storage device blocked by policy
+May 07 03:25:49 srv-comercio-01 kernel[6490]: SSL handshake completed with 185.220.101.5
+Apr 16 20:01:05 srv-comercio-01 kernel[7444]: SSL_ERROR_RX_RECORD_TOO_LONG from 45.33.32.156
+Apr 19 16:27:07 srv-comercio-01 systemd[7396]: Started Daily backup service
+May 05 18:07:13 srv-comercio-01 kernel[8166]: Out of memory: Kill process 8166 (python)
+Apr 16 00:54:48 srv-comercio-01 kernel[7422]: USB storage device blocked by policy
+May 06 19:48:03 srv-comercio-01 systemd[6282]: Failed to start backup.service timeout
+Apr 22 23:18:06 srv-comercio-01 kernel[1455]: iptables DROP: SYN packet from 192.168.1.10 port 22
+Apr 18 22:44:35 srv-comercio-01 kernel[1414]: Certificate expired: CN=example.com
+Apr 22 14:33:52 srv-comercio-01 kernel[4927]: SSL handshake completed with 198.51.100.1
+Apr 21 20:35:59 srv-comercio-01 kernel[5267]: UPS power failure running on battery
+May 09 06:53:26 srv-comercio-01 kernel[2694]: iptables DROP: SYN packet from 10.0.0.22 port 22
+May 04 16:48:00 srv-comercio-01 kernel[5627]: possible SYN flooding on port 80. Sending cookies
+May 09 06:03:03 srv-comercio-01 systemd[7402]: Failed to start backup.service timeout
+May 06 00:26:40 srv-comercio-01 kernel[2250]: UPS power failure running on battery
+May 07 12:52:07 srv-comercio-01 kernel[3639]: Out of memory: Kill process 3639 (python)
+May 02 10:22:25 srv-comercio-01 kernel[2920]: SSL_ERROR_RX_RECORD_TOO_LONG from 103.21.244.0
+Apr 25 22:36:05 srv-comercio-01 kernel[3595]: iptables DROP: SYN packet from 185.220.101.5 port 22
+May 12 05:20:16 srv-comercio-01 kernel[9781]: Out of memory: Kill process 9781 (python)
+Apr 14 15:51:44 srv-comercio-01 kernel[2880]: Out of memory: Kill process 2880 (python)
+May 04 13:22:52 srv-comercio-01 kernel[3073]: iptables DROP: SYN packet from 172.16.5.4 port 22
+Apr 19 06:25:32 srv-comercio-01 systemd[8652]: Failed to start backup.service timeout
+May 05 23:58:08 srv-comercio-01 auditd[3833]: type=USER_AUTH msg: user=eve res=success
+Apr 24 03:33:54 srv-comercio-01 auditd[2685]: type=USER_AUTH msg: user=admin res=failed
+Apr 14 07:25:26 srv-comercio-01 auditd[8101]: type=USER_AUTH msg: user=postgres res=success
+Apr 23 09:25:52 srv-comercio-01 kernel[2762]: SSL_ERROR_RX_RECORD_TOO_LONG from 203.0.113.77
+Apr 28 15:57:02 srv-comercio-01 kernel[2052]: SSL handshake completed with 198.51.100.1
+Apr 23 01:19:42 srv-comercio-01 systemd[5808]: Failed to start backup.service timeout
+Apr 17 11:25:14 srv-comercio-01 kernel[3947]: Out of memory: Kill process 3947 (python)
+May 06 00:29:41 srv-comercio-01 kernel[2190]: Out of memory: Kill process 2190 (python)
+May 01 23:52:19 srv-comercio-01 systemd[1157]: Started Daily backup service
+Apr 14 14:18:00 srv-comercio-01 systemd[6268]: Failed to start backup.service timeout
+May 06 18:17:47 srv-comercio-01 auditd[9638]: type=USER_AUTH msg: user=dave res=success
+Apr 21 08:32:12 srv-comercio-01 systemd[7909]: Started Daily backup service
+Apr 17 06:22:02 srv-comercio-01 cron[1813]: pam_unix(cron:session): session opened for user root
+Apr 28 16:14:44 srv-comercio-01 kernel[3033]: SSL_ERROR_RX_RECORD_TOO_LONG from 45.33.32.156
+May 03 21:11:14 srv-comercio-01 kernel[1348]: USB storage device blocked by policy
+May 03 16:59:39 srv-comercio-01 kernel[8565]: Firewall rule applied: ACCEPT tcp from 103.21.244.0
+Apr 22 21:48:34 srv-comercio-01 kernel[6527]: iptables DROP: SYN packet from 185.220.101.5 port 22
+May 02 10:27:59 srv-comercio-01 kernel[5500]: SSL handshake completed with 45.33.32.156
+Apr 30 12:08:35 srv-comercio-01 kernel[1771]: possible SYN flooding on port 80. Sending cookies
+May 12 14:49:12 srv-comercio-01 kernel[2683]: Firewall rule applied: ACCEPT tcp from 192.168.1.15
+Apr 14 23:06:37 srv-comercio-01 sshd[6289]: Server listening on 0.0.0.0 port 22
+Apr 19 10:00:07 srv-comercio-01 kernel[4131]: SSL handshake completed with 10.0.0.22
+Apr 14 20:46:01 srv-comercio-01 cron[5254]: pam_unix(cron:session): session opened for user root
+Apr 20 02:02:13 srv-comercio-01 systemd[6395]: Failed to start backup.service timeout
+Apr 24 07:45:56 srv-comercio-01 systemd[3257]: Started Daily backup service
+Apr 21 18:19:31 srv-comercio-01 sshd[8320]: Server listening on 0.0.0.0 port 22
+May 04 11:03:18 srv-comercio-01 kernel[9029]: possible SYN flooding on port 80. Sending cookies
+Apr 18 12:07:59 srv-comercio-01 systemd[5322]: Started Daily backup service
+Apr 20 19:48:33 srv-comercio-01 kernel[4373]: Firewall rule applied: ACCEPT tcp from 185.220.101.5
+Apr 28 09:40:33 srv-comercio-01 kernel[4541]: iptables DROP: SYN packet from 172.16.5.4 port 22
+Apr 26 11:04:45 srv-comercio-01 auditd[9644]: type=USER_AUTH msg: user=dave res=success
+May 09 17:38:06 srv-comercio-01 systemd[9265]: Started Daily backup service
+May 06 09:41:00 srv-comercio-01 cron[9412]: pam_unix(cron:session): session opened for user root
+Apr 12 03:11:58 srv-comercio-01 kernel[6032]: Out of memory: Kill process 6032 (python)
+May 05 20:55:35 srv-comercio-01 kernel[2805]: Out of memory: Kill process 2805 (python)
+Apr 21 05:24:42 srv-comercio-01 cron[8802]: pam_unix(cron:session): session opened for user root
+Apr 29 15:43:39 srv-comercio-01 kernel[6806]: SSL handshake completed with 192.168.1.15
+Apr 28 13:29:58 srv-comercio-01 kernel[1870]: Firewall rule applied: ACCEPT tcp from 45.33.32.156
+May 03 15:27:53 srv-comercio-01 kernel[4177]: SSL_ERROR_RX_RECORD_TOO_LONG from 45.33.32.156
+Apr 29 18:10:01 srv-comercio-01 kernel[9497]: Certificate expired: CN=example.com
+May 09 19:56:02 srv-comercio-01 kernel[4597]: SSL_ERROR_RX_RECORD_TOO_LONG from 172.16.5.4
+Apr 25 18:35:50 srv-comercio-01 kernel[2078]: UPS power failure running on battery
+Apr 30 18:38:18 srv-comercio-01 kernel[7421]: USB storage device blocked by policy
+May 07 15:30:24 srv-comercio-01 cron[4370]: pam_unix(cron:session): session opened for user root
+May 09 16:20:06 srv-comercio-01 auditd[1050]: type=USER_AUTH msg: user=eve res=success
+Apr 14 23:37:54 srv-comercio-01 systemd[6002]: Started Daily backup service
+May 02 07:44:04 srv-comercio-01 kernel[4069]: Certificate expired: CN=example.com
+May 12 16:36:08 srv-comercio-01 kernel[6473]: iptables DROP: SYN packet from 80.82.77.33 port 22
+Apr 27 03:52:33 srv-comercio-01 kernel[6769]: USB storage device blocked by policy
+May 11 21:16:21 srv-comercio-01 cron[2792]: pam_unix(cron:session): session opened for user root
+Apr 18 18:46:45 srv-comercio-01 auditd[3401]: type=USER_AUTH msg: user=carol res=failed
+Apr 19 10:18:48 srv-comercio-01 kernel[9039]: Certificate expired: CN=example.com
+Apr 28 21:00:42 srv-comercio-01 cron[6968]: pam_unix(cron:session): session opened for user root
+May 04 00:19:18 srv-comercio-01 kernel[2847]: Certificate expired: CN=example.com
+Apr 15 14:10:55 srv-comercio-01 systemd[7722]: Started Daily backup service
+Apr 23 22:08:37 srv-comercio-01 systemd[5003]: Started Daily backup service
+Apr 13 09:12:58 srv-comercio-01 cron[4175]: pam_unix(cron:session): session opened for user root
+May 07 12:54:21 srv-comercio-01 systemd[9632]: Started Daily backup service
+Apr 12 13:33:52 srv-comercio-01 kernel[7836]: Firewall rule applied: ACCEPT tcp from 198.51.100.1
+Apr 29 07:16:14 srv-comercio-01 auditd[3014]: type=USER_AUTH msg: user=root res=failed
+May 12 05:53:21 srv-comercio-01 kernel[2805]: Out of memory: Kill process 2805 (python)
+Apr 12 12:13:29 srv-comercio-01 kernel[9571]: Certificate expired: CN=example.com
+May 03 19:01:46 srv-comercio-01 kernel[8976]: Firewall rule applied: ACCEPT tcp from 10.0.0.22
+May 03 03:46:01 srv-comercio-01 kernel[4560]: possible SYN flooding on port 80. Sending cookies
+May 01 00:00:04 srv-comercio-01 kernel[8050]: Firewall rule applied: ACCEPT tcp from 203.0.113.77
+Apr 14 12:02:10 srv-comercio-01 kernel[6737]: SSL handshake completed with 203.0.113.77
+Apr 20 13:43:18 srv-comercio-01 sshd[2409]: Server listening on 0.0.0.0 port 22
+May 05 20:22:05 srv-comercio-01 systemd[5764]: Started Daily backup service
+Apr 30 17:55:48 srv-comercio-01 kernel[7923]: UPS power failure running on battery
+Apr 24 08:09:08 srv-comercio-01 systemd[3839]: Started Daily backup service
+May 04 17:26:29 srv-comercio-01 sshd[4268]: Server listening on 0.0.0.0 port 22
+May 03 02:53:24 srv-comercio-01 kernel[2402]: possible SYN flooding on port 80. Sending cookies
+Apr 17 08:46:56 srv-comercio-01 kernel[7159]: SSL handshake completed with 185.220.101.5
+Apr 13 00:07:42 srv-comercio-01 kernel[9254]: possible SYN flooding on port 80. Sending cookies
+Apr 29 08:24:03 srv-comercio-01 kernel[8643]: UPS power failure running on battery
+May 10 17:13:06 srv-comercio-01 cron[7896]: pam_unix(cron:session): session opened for user root
+Apr 23 03:55:28 srv-comercio-01 kernel[3085]: UPS power failure running on battery
+May 08 09:11:04 srv-comercio-01 kernel[7433]: possible SYN flooding on port 80. Sending cookies
+May 10 20:35:11 srv-comercio-01 kernel[1890]: Certificate expired: CN=example.com
+Apr 16 12:16:34 srv-comercio-01 auditd[2595]: type=USER_AUTH msg: user=root res=success
+Apr 19 03:09:32 srv-comercio-01 auditd[2989]: type=USER_AUTH msg: user=alice res=success
+May 08 04:05:33 srv-comercio-01 kernel[9458]: Out of memory: Kill process 9458 (python)
+Apr 22 12:06:05 srv-comercio-01 kernel[5929]: Firewall rule applied: ACCEPT tcp from 172.16.5.4
+May 10 21:43:26 srv-comercio-01 kernel[2879]: UPS power failure running on battery
+May 06 18:23:03 srv-comercio-01 kernel[5050]: USB storage device blocked by policy
+May 11 18:33:39 srv-comercio-01 kernel[7401]: possible SYN flooding on port 80. Sending cookies
+May 04 02:09:36 srv-comercio-01 kernel[9957]: USB storage device blocked by policy
+May 08 01:51:53 srv-comercio-01 kernel[8083]: Out of memory: Kill process 8083 (python)
+Apr 18 23:18:52 srv-comercio-01 kernel[9380]: possible SYN flooding on port 80. Sending cookies
+Apr 21 18:15:33 srv-comercio-01 systemd[5742]: Started Daily backup service
+Apr 20 18:23:38 srv-comercio-01 kernel[7321]: USB storage device blocked by policy
+May 03 07:45:28 srv-comercio-01 systemd[1458]: Failed to start backup.service timeout
+Apr 22 00:55:22 srv-comercio-01 kernel[1558]: SSL_ERROR_RX_RECORD_TOO_LONG from 192.168.1.10
+Apr 12 17:23:08 srv-comercio-01 auditd[6811]: type=USER_AUTH msg: user=alice res=success
+May 07 10:20:10 srv-comercio-01 kernel[1149]: USB storage device blocked by policy
+Apr 13 23:19:40 srv-comercio-01 kernel[6715]: SSL handshake completed with 185.220.101.5
+May 01 01:06:28 srv-comercio-01 systemd[3480]: Started Daily backup service
+Apr 17 00:33:05 srv-comercio-01 systemd[5560]: Failed to start backup.service timeout
+Apr 12 06:14:22 srv-comercio-01 kernel[7168]: Out of memory: Kill process 7168 (python)
+Apr 20 11:15:27 srv-comercio-01 systemd[3120]: Started Daily backup service
+May 11 20:58:18 srv-comercio-01 kernel[2107]: Out of memory: Kill process 2107 (python)
+Apr 27 00:22:44 srv-comercio-01 auditd[2740]: type=USER_AUTH msg: user=bob res=failed
+Apr 14 16:06:07 srv-comercio-01 systemd[2727]: Failed to start backup.service timeout
+Apr 23 13:46:02 srv-comercio-01 kernel[2014]: USB storage device blocked by policy
+Apr 23 01:00:03 srv-comercio-01 kernel[7132]: UPS power failure running on battery
+Apr 20 07:28:56 srv-comercio-01 kernel[2763]: Certificate expired: CN=example.com
+May 04 06:24:21 srv-comercio-01 cron[4206]: pam_unix(cron:session): session opened for user root
+Apr 29 05:01:14 srv-comercio-01 sshd[3655]: Server listening on 0.0.0.0 port 22
+May 06 20:01:56 srv-comercio-01 kernel[2576]: UPS power failure running on battery
+Apr 24 03:58:00 srv-comercio-01 systemd[7685]: Started Daily backup service
+Apr 16 15:16:12 srv-comercio-01 kernel[4115]: possible SYN flooding on port 80. Sending cookies
+Apr 23 03:58:56 srv-comercio-01 auditd[6840]: type=USER_AUTH msg: user=root res=failed
+Apr 22 08:58:00 srv-comercio-01 kernel[8004]: SSL_ERROR_RX_RECORD_TOO_LONG from 192.168.1.15
+May 03 18:45:33 srv-comercio-01 sshd[9474]: Server listening on 0.0.0.0 port 22
+May 05 11:53:11 srv-comercio-01 cron[1369]: pam_unix(cron:session): session opened for user root
+Apr 15 16:35:00 srv-comercio-01 kernel[2113]: SSL handshake completed with 45.33.32.156
+Apr 13 02:20:45 srv-comercio-01 systemd[9482]: Failed to start backup.service timeout
+Apr 20 18:15:34 srv-comercio-01 kernel[9944]: UPS power failure running on battery
+May 02 08:36:52 srv-comercio-01 systemd[1528]: Started Daily backup service
+Apr 24 22:31:05 srv-comercio-01 auditd[4346]: type=USER_AUTH msg: user=carol res=failed
+May 10 02:55:25 srv-comercio-01 auditd[9086]: type=USER_AUTH msg: user=dave res=success
+Apr 12 08:14:17 srv-comercio-01 kernel[2159]: SSL_ERROR_RX_RECORD_TOO_LONG from 192.168.1.10
+May 03 22:50:58 srv-comercio-01 kernel[3121]: Firewall rule applied: ACCEPT tcp from 192.168.1.15
+Apr 29 06:33:14 srv-comercio-01 kernel[6738]: USB storage device blocked by policy
+May 12 15:18:26 srv-comercio-01 kernel[1906]: USB storage device blocked by policy
+May 11 09:03:40 srv-comercio-01 auditd[8899]: type=USER_AUTH msg: user=alice res=success
+Apr 25 17:45:36 srv-comercio-01 kernel[7993]: iptables DROP: SYN packet from 10.0.0.22 port 22
+May 06 11:25:06 srv-comercio-01 kernel[6763]: Firewall rule applied: ACCEPT tcp from 103.21.244.0
+Apr 24 21:38:38 srv-comercio-01 auditd[2507]: type=USER_AUTH msg: user=dave res=success
+Apr 14 22:37:12 srv-comercio-01 kernel[1244]: Firewall rule applied: ACCEPT tcp from 185.220.101.5
+Apr 28 16:35:02 srv-comercio-01 systemd[3076]: Started Daily backup service
+May 08 02:27:34 srv-comercio-01 kernel[5790]: Certificate expired: CN=example.com
+May 04 04:39:33 srv-comercio-01 auditd[2251]: type=USER_AUTH msg: user=bob res=success
+Apr 20 12:29:15 srv-comercio-01 kernel[8266]: SSL handshake completed with 198.51.100.1
+Apr 14 13:32:20 srv-comercio-01 kernel[9631]: SSL handshake completed with 203.0.113.77
+May 01 08:07:25 srv-comercio-01 kernel[1884]: possible SYN flooding on port 80. Sending cookies
+Apr 13 16:59:31 srv-comercio-01 sshd[4335]: Server listening on 0.0.0.0 port 22
+Apr 30 22:00:14 srv-comercio-01 kernel[3011]: Out of memory: Kill process 3011 (python)
+Apr 22 07:46:03 srv-comercio-01 kernel[8213]: possible SYN flooding on port 80. Sending cookies
+Apr 24 09:33:12 srv-comercio-01 kernel[5554]: iptables DROP: SYN packet from 192.168.1.10 port 22
+Apr 27 20:57:40 srv-comercio-01 systemd[7290]: Failed to start backup.service timeout
+May 06 09:41:22 srv-comercio-01 systemd[4677]: Failed to start backup.service timeout
+May 11 04:04:42 srv-comercio-01 kernel[5999]: UPS power failure running on battery
+Apr 17 03:39:16 srv-comercio-01 kernel[5301]: Firewall rule applied: ACCEPT tcp from 192.168.1.10
+Apr 16 21:53:17 srv-comercio-01 auditd[8004]: type=USER_AUTH msg: user=admin res=failed
+Apr 11 21:53:21 srv-comercio-01 cron[7358]: pam_unix(cron:session): session opened for user root
+Apr 23 22:16:15 srv-comercio-01 kernel[7944]: SSL handshake completed with 185.220.101.5
+Apr 27 21:53:49 srv-comercio-01 kernel[7247]: Out of memory: Kill process 7247 (python)
+May 10 14:03:30 srv-comercio-01 cron[5495]: pam_unix(cron:session): session opened for user root
+Apr 23 13:29:47 srv-comercio-01 kernel[1632]: Certificate expired: CN=example.com
+May 03 03:10:44 srv-comercio-01 kernel[3036]: USB storage device blocked by policy
+Apr 28 21:25:04 srv-comercio-01 kernel[8271]: possible SYN flooding on port 80. Sending cookies
+Apr 22 04:39:38 srv-comercio-01 kernel[8867]: Firewall rule applied: ACCEPT tcp from 192.168.1.10
+Apr 14 02:17:44 srv-comercio-01 kernel[5529]: iptables DROP: SYN packet from 103.21.244.0 port 22
+Apr 18 13:36:09 srv-comercio-01 kernel[5227]: possible SYN flooding on port 80. Sending cookies
+May 08 02:12:01 srv-comercio-01 sshd[3858]: Server listening on 0.0.0.0 port 22
+Apr 21 04:57:36 srv-comercio-01 kernel[4018]: SSL_ERROR_RX_RECORD_TOO_LONG from 192.168.1.15
+May 10 23:36:48 srv-comercio-01 kernel[4734]: Firewall rule applied: ACCEPT tcp from 198.51.100.1
+May 01 18:48:32 srv-comercio-01 kernel[4845]: possible SYN flooding on port 80. Sending cookies
+May 06 11:16:41 srv-comercio-01 kernel[4882]: USB storage device blocked by policy
+Apr 14 12:44:03 srv-comercio-01 systemd[7987]: Started Daily backup service
+Apr 29 01:29:34 srv-comercio-01 cron[6488]: pam_unix(cron:session): session opened for user root
+May 01 20:34:05 srv-comercio-01 kernel[3626]: Out of memory: Kill process 3626 (python)
+Apr 23 15:01:44 srv-comercio-01 kernel[2740]: SSL handshake completed with 103.21.244.0
+Apr 30 03:50:22 srv-comercio-01 auditd[4520]: type=USER_AUTH msg: user=root res=success
+Apr 12 18:53:50 srv-comercio-01 kernel[2285]: SSL_ERROR_RX_RECORD_TOO_LONG from 10.0.0.22
+Apr 19 17:58:08 srv-comercio-01 kernel[9830]: SSL handshake completed with 185.220.101.5
+Apr 26 07:32:47 srv-comercio-01 sshd[9592]: Server listening on 0.0.0.0 port 22
+May 02 14:01:15 srv-comercio-01 systemd[4998]: Started Daily backup service
+Apr 19 18:08:49 srv-comercio-01 kernel[6157]: possible SYN flooding on port 80. Sending cookies
+May 01 04:21:00 srv-comercio-01 kernel[2305]: UPS power failure running on battery
+Apr 28 08:38:28 srv-comercio-01 kernel[4774]: USB storage device blocked by policy
+Apr 21 03:10:56 srv-comercio-01 kernel[7678]: SSL_ERROR_RX_RECORD_TOO_LONG from 10.0.0.22
+May 02 18:47:38 srv-comercio-01 systemd[6596]: Failed to start backup.service timeout
+Apr 22 14:55:53 srv-comercio-01 kernel[9096]: UPS power failure running on battery
+May 09 08:36:16 srv-comercio-01 kernel[3732]: SSL handshake completed with 80.82.77.33
+Apr 15 19:59:37 srv-comercio-01 kernel[3070]: Firewall rule applied: ACCEPT tcp from 80.82.77.33
+Apr 26 04:54:40 srv-comercio-01 kernel[3168]: UPS power failure running on battery
+Apr 29 23:17:49 srv-comercio-01 auditd[3088]: type=USER_AUTH msg: user=root res=success
+Apr 14 11:15:26 srv-comercio-01 kernel[6518]: SSL_ERROR_RX_RECORD_TOO_LONG from 203.0.113.77
+Apr 19 10:24:06 srv-comercio-01 systemd[2208]: Failed to start backup.service timeout
+Apr 18 06:08:56 srv-comercio-01 auditd[5739]: type=USER_AUTH msg: user=admin res=success
+Apr 14 21:15:27 srv-comercio-01 systemd[3494]: Started Daily backup service
+Apr 28 16:20:18 srv-comercio-01 kernel[6250]: SSL_ERROR_RX_RECORD_TOO_LONG from 80.82.77.33
+May 03 06:32:01 srv-comercio-01 kernel[4805]: SSL_ERROR_RX_RECORD_TOO_LONG from 203.0.113.77
+May 02 09:32:16 srv-comercio-01 kernel[5673]: Out of memory: Kill process 5673 (python)
+Apr 29 05:35:28 srv-comercio-01 kernel[4451]: UPS power failure running on battery
+May 01 12:42:57 srv-comercio-01 cron[2629]: pam_unix(cron:session): session opened for user root
+May 05 16:34:06 srv-comercio-01 cron[8191]: pam_unix(cron:session): session opened for user root
+Apr 21 13:43:58 srv-comercio-01 sshd[4795]: Server listening on 0.0.0.0 port 22
+Apr 23 19:55:30 srv-comercio-01 kernel[1448]: SSL handshake completed with 185.220.101.5
+Apr 16 21:29:51 srv-comercio-01 cron[9001]: pam_unix(cron:session): session opened for user root
+Apr 26 16:59:35 srv-comercio-01 cron[8288]: pam_unix(cron:session): session opened for user root
+Apr 14 08:21:48 srv-comercio-01 kernel[8281]: iptables DROP: SYN packet from 192.168.1.15 port 22
+Apr 12 10:01:59 srv-comercio-01 auditd[2908]: type=USER_AUTH msg: user=eve res=success
+May 07 05:31:47 srv-comercio-01 kernel[6359]: possible SYN flooding on port 80. Sending cookies
+Apr 14 20:25:58 srv-comercio-01 kernel[6157]: UPS power failure running on battery
+Apr 16 04:10:11 srv-comercio-01 kernel[4119]: UPS power failure running on battery
+May 08 03:28:09 srv-comercio-01 sshd[5029]: Server listening on 0.0.0.0 port 22
+May 08 06:00:53 srv-comercio-01 auditd[8702]: type=USER_AUTH msg: user=eve res=success
+May 06 00:56:59 srv-comercio-01 kernel[3159]: SSL handshake completed with 80.82.77.33
+May 10 06:17:25 srv-comercio-01 sshd[8115]: Server listening on 0.0.0.0 port 22
+Apr 20 13:13:40 srv-comercio-01 kernel[7851]: Certificate expired: CN=example.com
+Apr 27 05:10:53 srv-comercio-01 kernel[6713]: UPS power failure running on battery
+Apr 21 06:21:14 srv-comercio-01 kernel[5786]: Certificate expired: CN=example.com
+Apr 27 12:46:50 srv-comercio-01 kernel[9903]: iptables DROP: SYN packet from 45.33.32.156 port 22
+May 02 14:10:37 srv-comercio-01 kernel[8326]: iptables DROP: SYN packet from 203.0.113.77 port 22
+Apr 21 18:30:20 srv-comercio-01 systemd[6224]: Failed to start backup.service timeout
+Apr 23 08:09:49 srv-comercio-01 kernel[9014]: Firewall rule applied: ACCEPT tcp from 10.0.0.22
+May 06 08:49:29 srv-comercio-01 auditd[9314]: type=USER_AUTH msg: user=eve res=failed
+Apr 29 09:01:36 srv-comercio-01 systemd[6203]: Failed to start backup.service timeout
+May 04 06:06:50 srv-comercio-01 systemd[1895]: Started Daily backup service
+Apr 29 14:16:08 srv-comercio-01 kernel[8334]: Out of memory: Kill process 8334 (python)
+Apr 12 02:13:43 srv-comercio-01 kernel[2807]: Out of memory: Kill process 2807 (python)
+Apr 17 09:47:15 srv-comercio-01 auditd[1345]: type=USER_AUTH msg: user=alice res=success
+Apr 22 20:19:51 srv-comercio-01 systemd[2039]: Started Daily backup service
+Apr 16 04:27:09 srv-comercio-01 auditd[3572]: type=USER_AUTH msg: user=dave res=success
+Apr 13 10:31:38 srv-comercio-01 sshd[3644]: Server listening on 0.0.0.0 port 22
+May 11 21:04:31 srv-comercio-01 kernel[1223]: iptables DROP: SYN packet from 185.220.101.5 port 22
+May 11 16:34:45 srv-comercio-01 kernel[8944]: Firewall rule applied: ACCEPT tcp from 185.220.101.5
+May 03 22:45:12 srv-comercio-01 auditd[1553]: type=USER_AUTH msg: user=dave res=failed
+Apr 15 21:56:47 srv-comercio-01 kernel[3149]: USB storage device blocked by policy
+Apr 25 22:07:16 srv-comercio-01 auditd[2210]: type=USER_AUTH msg: user=bob res=success
+Apr 19 04:14:06 srv-comercio-01 kernel[1241]: Out of memory: Kill process 1241 (python)
+Apr 16 01:58:45 srv-comercio-01 auditd[4183]: type=USER_AUTH msg: user=admin res=failed
+Apr 19 21:33:47 srv-comercio-01 kernel[9394]: possible SYN flooding on port 80. Sending cookies
+Apr 22 03:22:40 srv-comercio-01 cron[5329]: pam_unix(cron:session): session opened for user root
+Apr 12 08:17:47 srv-comercio-01 kernel[4641]: possible SYN flooding on port 80. Sending cookies
+May 12 06:06:39 srv-comercio-01 systemd[7265]: Started Daily backup service
+May 05 03:51:39 srv-comercio-01 auditd[8409]: type=USER_AUTH msg: user=bob res=failed
+Apr 27 03:46:23 srv-comercio-01 cron[7059]: pam_unix(cron:session): session opened for user root
+May 09 04:42:51 srv-comercio-01 kernel[2370]: USB storage device blocked by policy
+May 08 09:13:11 srv-comercio-01 kernel[2374]: possible SYN flooding on port 80. Sending cookies
+Apr 18 06:36:38 srv-comercio-01 cron[1965]: pam_unix(cron:session): session opened for user root
+May 01 23:16:26 srv-comercio-01 systemd[1598]: Failed to start backup.service timeout
+Apr 18 04:02:33 srv-comercio-01 kernel[4427]: SSL handshake completed with 192.168.1.10
+May 02 07:07:34 srv-comercio-01 kernel[4862]: SSL handshake completed with 80.82.77.33
+Apr 28 23:48:40 srv-comercio-01 kernel[2721]: Out of memory: Kill process 2721 (python)
+Apr 19 18:42:52 srv-comercio-01 kernel[9518]: possible SYN flooding on port 80. Sending cookies
+Apr 27 16:12:13 srv-comercio-01 kernel[7949]: SSL handshake completed with 192.168.1.15
+Apr 29 09:52:46 srv-comercio-01 kernel[9963]: iptables DROP: SYN packet from 80.82.77.33 port 22
+Apr 26 11:13:08 srv-comercio-01 systemd[5441]: Started Daily backup service
+May 03 05:09:51 srv-comercio-01 auditd[3318]: type=USER_AUTH msg: user=carol res=failed
+Apr 23 13:22:35 srv-comercio-01 sshd[9509]: Server listening on 0.0.0.0 port 22
+Apr 25 22:59:34 srv-comercio-01 kernel[3690]: Firewall rule applied: ACCEPT tcp from 198.51.100.1
+May 08 06:49:04 srv-comercio-01 cron[3936]: pam_unix(cron:session): session opened for user root
+Apr 25 07:31:58 srv-comercio-01 kernel[2537]: Firewall rule applied: ACCEPT tcp from 172.16.5.4
+May 10 10:12:29 srv-comercio-01 kernel[3563]: UPS power failure running on battery
+Apr 13 15:35:46 srv-comercio-01 kernel[1231]: USB storage device blocked by policy
+Apr 23 08:53:48 srv-comercio-01 kernel[7017]: SSL handshake completed with 45.33.32.156
+Apr 24 17:46:18 srv-comercio-01 sshd[2269]: Server listening on 0.0.0.0 port 22
+Apr 24 18:44:13 srv-comercio-01 kernel[5307]: SSL handshake completed with 203.0.113.77
+Apr 24 03:14:47 srv-comercio-01 auditd[6409]: type=USER_AUTH msg: user=admin res=failed
+May 07 21:02:50 srv-comercio-01 sshd[4429]: Server listening on 0.0.0.0 port 22
+May 07 05:58:04 srv-comercio-01 systemd[3348]: Started Daily backup service
+Apr 26 07:25:22 srv-comercio-01 kernel[3244]: possible SYN flooding on port 80. Sending cookies
+Apr 18 18:37:29 srv-comercio-01 systemd[9198]: Failed to start backup.service timeout
+May 01 11:59:31 srv-comercio-01 systemd[8773]: Started Daily backup service
+Apr 12 16:12:11 srv-comercio-01 cron[4504]: pam_unix(cron:session): session opened for user root
+Apr 26 23:02:48 srv-comercio-01 kernel[8235]: Certificate expired: CN=example.com
+May 07 20:57:41 srv-comercio-01 kernel[6704]: USB storage device blocked by policy
+May 06 02:17:08 srv-comercio-01 kernel[7948]: UPS power failure running on battery
+May 06 22:52:52 srv-comercio-01 kernel[7130]: possible SYN flooding on port 80. Sending cookies
+Apr 24 12:31:58 srv-comercio-01 kernel[1091]: UPS power failure running on battery
+Apr 13 21:14:47 srv-comercio-01 kernel[9237]: Firewall rule applied: ACCEPT tcp from 198.51.100.1
+May 10 23:07:48 srv-comercio-01 cron[7525]: pam_unix(cron:session): session opened for user root
+Apr 23 01:23:33 srv-comercio-01 kernel[8713]: Out of memory: Kill process 8713 (python)
+May 01 21:13:07 srv-comercio-01 auditd[1625]: type=USER_AUTH msg: user=bob res=success
+May 10 07:59:10 srv-comercio-01 kernel[3156]: iptables DROP: SYN packet from 10.0.0.22 port 22
+May 02 17:58:30 srv-comercio-01 cron[2021]: pam_unix(cron:session): session opened for user root
+Apr 15 23:58:07 srv-comercio-01 systemd[6450]: Started Daily backup service
+May 12 00:27:38 srv-comercio-01 kernel[9459]: USB storage device blocked by policy
+Apr 16 05:43:18 srv-comercio-01 cron[4161]: pam_unix(cron:session): session opened for user root
+May 11 13:14:52 srv-comercio-01 auditd[8264]: type=USER_AUTH msg: user=carol res=success
+Apr 21 21:59:11 srv-comercio-01 kernel[3833]: Firewall rule applied: ACCEPT tcp from 185.220.101.5
+May 09 11:23:28 srv-comercio-01 kernel[6745]: USB storage device blocked by policy
+May 09 19:41:18 srv-comercio-01 kernel[2444]: iptables DROP: SYN packet from 192.168.1.15 port 22
+Apr 18 16:03:04 srv-comercio-01 sshd[1329]: Server listening on 0.0.0.0 port 22
+Apr 13 22:37:45 srv-comercio-01 kernel[2331]: USB storage device blocked by policy
+May 11 09:07:46 srv-comercio-01 kernel[6087]: Out of memory: Kill process 6087 (python)
+Apr 29 13:59:52 srv-comercio-01 cron[6169]: pam_unix(cron:session): session opened for user root
+May 03 23:24:48 srv-comercio-01 kernel[5832]: iptables DROP: SYN packet from 172.16.5.4 port 22
+May 01 01:19:36 srv-comercio-01 kernel[6957]: USB storage device blocked by policy
+May 08 04:16:51 srv-comercio-01 auditd[7318]: type=USER_AUTH msg: user=alice res=success
+May 06 11:08:32 srv-comercio-01 kernel[5729]: SSL handshake completed with 45.33.32.156
+Apr 18 15:36:51 srv-comercio-01 kernel[9409]: possible SYN flooding on port 80. Sending cookies
+Apr 26 00:12:53 srv-comercio-01 kernel[2889]: possible SYN flooding on port 80. Sending cookies
+May 01 03:28:22 srv-comercio-01 kernel[6291]: SSL_ERROR_RX_RECORD_TOO_LONG from 10.0.0.22
+Apr 22 09:57:07 srv-comercio-01 kernel[2713]: Firewall rule applied: ACCEPT tcp from 192.168.1.10
+May 02 11:11:07 srv-comercio-01 kernel[8790]: iptables DROP: SYN packet from 10.0.0.22 port 22

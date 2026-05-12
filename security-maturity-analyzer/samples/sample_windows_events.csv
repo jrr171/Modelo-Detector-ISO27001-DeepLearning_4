@@ -1,0 +1,301 @@
+TimeCreated,Id,LevelDisplayName,Message,UserName,Computer
+2026-05-07T07:18:53.851493,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,root,WIN-SERVER01
+2026-04-24T03:08:37.851526,1102,Warning,The audit log was cleared. Subject: postgres,postgres,WIN-SERVER01
+2026-05-03T22:29:26.851539,4740,Warning,A user account was locked out. Account: postgres,postgres,WIN-SERVER01
+2026-05-03T19:53:08.851551,5156,Information,The Windows Filtering Platform permitted a connection. 198.51.100.1,postgres,WIN-SERVER01
+2026-04-29T13:16:39.851563,5156,Information,The Windows Filtering Platform permitted a connection. 172.16.5.4,bob,WIN-SERVER01
+2026-04-26T15:53:45.851575,4648,Information,A logon was attempted using explicit credentials. alice,alice,WIN-SERVER01
+2026-05-08T00:31:14.851587,4648,Information,A logon was attempted using explicit credentials. dave,dave,WIN-SERVER01
+2026-04-17T17:01:42.851597,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,bob,WIN-SERVER01
+2026-04-28T21:10:55.851613,4648,Information,A logon was attempted using explicit credentials. admin,admin,WIN-SERVER01
+2026-05-03T19:41:49.851623,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,carol,WIN-SERVER01
+2026-04-19T14:43:21.851634,4625,Warning,An account failed to log on. User: admin IP: 172.16.5.4,admin,WIN-SERVER01
+2026-04-27T16:30:58.851644,4624,Information,An account was successfully logged on. Subject: root,root,WIN-SERVER01
+2026-04-13T06:10:40.851655,4740,Warning,A user account was locked out. Account: admin,admin,WIN-SERVER01
+2026-04-30T17:32:16.851666,4625,Warning,An account failed to log on. User: dave IP: 80.82.77.33,dave,WIN-SERVER01
+2026-04-14T12:00:21.851673,5157,Warning,The Windows Filtering Platform blocked a connection from 10.0.0.22,admin,WIN-SERVER01
+2026-05-10T10:21:22.851684,4672,Information,Special privileges assigned to new logon. admin,admin,WIN-SERVER01
+2026-04-14T02:41:15.851691,4740,Warning,A user account was locked out. Account: alice,alice,WIN-SERVER01
+2026-05-02T05:01:04.851698,5157,Warning,The Windows Filtering Platform blocked a connection from 172.16.5.4,root,WIN-SERVER01
+2026-04-22T14:44:33.851704,4625,Warning,An account failed to log on. User: admin IP: 103.21.244.0,admin,WIN-SERVER01
+2026-05-03T08:47:43.851711,4740,Warning,A user account was locked out. Account: alice,alice,WIN-SERVER01
+2026-05-08T12:33:40.851717,5156,Information,The Windows Filtering Platform permitted a connection. 45.33.32.156,carol,WIN-SERVER01
+2026-04-12T08:41:54.851724,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,alice,WIN-SERVER01
+2026-04-17T19:30:21.851730,1102,Warning,The audit log was cleared. Subject: bob,bob,WIN-SERVER01
+2026-05-07T11:44:28.851737,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-05-12T06:11:22.851743,1102,Warning,The audit log was cleared. Subject: admin,admin,WIN-SERVER01
+2026-05-03T08:36:17.851750,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-05-01T06:07:43.851756,4672,Information,Special privileges assigned to new logon. postgres,postgres,WIN-SERVER01
+2026-04-17T16:25:30.851763,4625,Warning,An account failed to log on. User: root IP: 185.220.101.5,root,WIN-SERVER01
+2026-05-12T10:53:19.851770,4648,Information,A logon was attempted using explicit credentials. bob,bob,WIN-SERVER01
+2026-04-26T02:06:09.851777,4740,Warning,A user account was locked out. Account: eve,eve,WIN-SERVER01
+2026-04-28T12:50:57.851783,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-05-11T02:09:41.851789,5157,Warning,The Windows Filtering Platform blocked a connection from 80.82.77.33,postgres,WIN-SERVER01
+2026-04-21T12:03:12.851796,5157,Warning,The Windows Filtering Platform blocked a connection from 203.0.113.77,admin,WIN-SERVER01
+2026-05-03T10:27:03.851802,4648,Information,A logon was attempted using explicit credentials. eve,eve,WIN-SERVER01
+2026-04-22T20:14:57.851808,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,root,WIN-SERVER01
+2026-04-19T09:37:53.851815,4672,Information,Special privileges assigned to new logon. alice,alice,WIN-SERVER01
+2026-04-19T17:12:33.851821,4648,Information,A logon was attempted using explicit credentials. bob,bob,WIN-SERVER01
+2026-04-27T23:13:49.851827,5157,Warning,The Windows Filtering Platform blocked a connection from 45.33.32.156,eve,WIN-SERVER01
+2026-05-10T11:30:02.851834,4624,Information,An account was successfully logged on. Subject: postgres,postgres,WIN-SERVER01
+2026-04-25T22:47:43.851842,5156,Information,The Windows Filtering Platform permitted a connection. 10.0.0.22,bob,WIN-SERVER01
+2026-05-12T16:05:48.851848,5156,Information,The Windows Filtering Platform permitted a connection. 203.0.113.77,admin,WIN-SERVER01
+2026-04-17T15:16:48.851855,4625,Warning,An account failed to log on. User: admin IP: 192.168.1.15,admin,WIN-SERVER01
+2026-05-01T03:22:51.851862,4624,Information,An account was successfully logged on. Subject: dave,dave,WIN-SERVER01
+2026-05-04T05:11:02.851869,4648,Information,A logon was attempted using explicit credentials. eve,eve,WIN-SERVER01
+2026-04-21T12:36:04.851875,4648,Information,A logon was attempted using explicit credentials. admin,admin,WIN-SERVER01
+2026-04-17T08:10:56.851881,4624,Information,An account was successfully logged on. Subject: dave,dave,WIN-SERVER01
+2026-04-23T01:32:58.851888,1102,Warning,The audit log was cleared. Subject: eve,eve,WIN-SERVER01
+2026-04-20T11:39:00.851894,4624,Information,An account was successfully logged on. Subject: dave,dave,WIN-SERVER01
+2026-04-24T08:12:26.851901,1102,Warning,The audit log was cleared. Subject: eve,eve,WIN-SERVER01
+2026-04-13T04:52:43.851907,1102,Warning,The audit log was cleared. Subject: admin,admin,WIN-SERVER01
+2026-04-16T07:43:35.851913,5157,Warning,The Windows Filtering Platform blocked a connection from 198.51.100.1,root,WIN-SERVER01
+2026-04-20T16:09:40.851920,4672,Information,Special privileges assigned to new logon. dave,dave,WIN-SERVER01
+2026-04-21T03:47:24.851927,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-05-05T22:19:41.851934,4625,Warning,An account failed to log on. User: root IP: 80.82.77.33,root,WIN-SERVER01
+2026-04-28T00:24:03.851941,5157,Warning,The Windows Filtering Platform blocked a connection from 203.0.113.77,eve,WIN-SERVER01
+2026-04-24T08:26:16.851947,5157,Warning,The Windows Filtering Platform blocked a connection from 10.0.0.22,carol,WIN-SERVER01
+2026-04-19T06:37:40.851954,4672,Information,Special privileges assigned to new logon. eve,eve,WIN-SERVER01
+2026-04-23T18:46:39.851960,5156,Information,The Windows Filtering Platform permitted a connection. 185.220.101.5,carol,WIN-SERVER01
+2026-04-24T12:41:09.851966,4625,Warning,An account failed to log on. User: dave IP: 172.16.5.4,dave,WIN-SERVER01
+2026-04-29T10:04:51.851973,4672,Information,Special privileges assigned to new logon. admin,admin,WIN-SERVER01
+2026-04-18T10:12:58.851979,5157,Warning,The Windows Filtering Platform blocked a connection from 45.33.32.156,eve,WIN-SERVER01
+2026-04-15T09:21:16.851986,4740,Warning,A user account was locked out. Account: admin,admin,WIN-SERVER01
+2026-05-07T16:27:46.851992,1102,Warning,The audit log was cleared. Subject: eve,eve,WIN-SERVER01
+2026-04-22T16:09:06.851999,1102,Warning,The audit log was cleared. Subject: root,root,WIN-SERVER01
+2026-04-29T08:40:24.852005,5156,Information,The Windows Filtering Platform permitted a connection. 192.168.1.15,admin,WIN-SERVER01
+2026-04-23T02:20:59.852014,4648,Information,A logon was attempted using explicit credentials. dave,dave,WIN-SERVER01
+2026-05-02T02:37:54.852020,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-04-12T10:51:17.852027,4625,Warning,An account failed to log on. User: postgres IP: 103.21.244.0,postgres,WIN-SERVER01
+2026-04-26T14:58:06.852033,4672,Information,Special privileges assigned to new logon. admin,admin,WIN-SERVER01
+2026-04-19T14:41:34.852040,5157,Warning,The Windows Filtering Platform blocked a connection from 10.0.0.22,postgres,WIN-SERVER01
+2026-05-03T18:56:03.852046,4648,Information,A logon was attempted using explicit credentials. root,root,WIN-SERVER01
+2026-05-05T00:14:36.852052,1102,Warning,The audit log was cleared. Subject: postgres,postgres,WIN-SERVER01
+2026-04-26T01:45:13.852059,1102,Warning,The audit log was cleared. Subject: carol,carol,WIN-SERVER01
+2026-05-05T07:07:00.852065,4648,Information,A logon was attempted using explicit credentials. root,root,WIN-SERVER01
+2026-04-15T05:22:09.852072,5156,Information,The Windows Filtering Platform permitted a connection. 192.168.1.10,alice,WIN-SERVER01
+2026-04-12T12:56:19.852078,5156,Information,The Windows Filtering Platform permitted a connection. 45.33.32.156,bob,WIN-SERVER01
+2026-04-20T21:24:34.852084,4672,Information,Special privileges assigned to new logon. bob,bob,WIN-SERVER01
+2026-04-15T22:04:02.852091,5156,Information,The Windows Filtering Platform permitted a connection. 192.168.1.10,eve,WIN-SERVER01
+2026-04-22T01:24:37.852098,4672,Information,Special privileges assigned to new logon. admin,admin,WIN-SERVER01
+2026-04-15T13:04:12.852106,4648,Information,A logon was attempted using explicit credentials. bob,bob,WIN-SERVER01
+2026-05-01T08:10:43.852112,4648,Information,A logon was attempted using explicit credentials. bob,bob,WIN-SERVER01
+2026-05-06T13:46:43.852118,1102,Warning,The audit log was cleared. Subject: dave,dave,WIN-SERVER01
+2026-04-18T14:04:48.852125,1102,Warning,The audit log was cleared. Subject: postgres,postgres,WIN-SERVER01
+2026-05-02T07:08:48.852131,1102,Warning,The audit log was cleared. Subject: eve,eve,WIN-SERVER01
+2026-04-18T17:43:31.852137,4624,Information,An account was successfully logged on. Subject: eve,eve,WIN-SERVER01
+2026-04-14T10:16:41.852143,4740,Warning,A user account was locked out. Account: alice,alice,WIN-SERVER01
+2026-04-24T01:33:34.852150,4648,Information,A logon was attempted using explicit credentials. eve,eve,WIN-SERVER01
+2026-04-18T23:44:55.852156,4648,Information,A logon was attempted using explicit credentials. eve,eve,WIN-SERVER01
+2026-05-04T01:39:03.852162,5156,Information,The Windows Filtering Platform permitted a connection. 103.21.244.0,eve,WIN-SERVER01
+2026-04-24T21:36:41.852169,4648,Information,A logon was attempted using explicit credentials. eve,eve,WIN-SERVER01
+2026-04-23T16:30:23.852175,1102,Warning,The audit log was cleared. Subject: admin,admin,WIN-SERVER01
+2026-05-01T08:57:05.852181,4672,Information,Special privileges assigned to new logon. root,root,WIN-SERVER01
+2026-04-27T16:22:07.852188,4672,Information,Special privileges assigned to new logon. carol,carol,WIN-SERVER01
+2026-05-02T14:33:51.852281,4625,Warning,An account failed to log on. User: alice IP: 45.33.32.156,alice,WIN-SERVER01
+2026-04-22T22:02:57.852305,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,carol,WIN-SERVER01
+2026-04-28T02:54:24.852317,1102,Warning,The audit log was cleared. Subject: root,root,WIN-SERVER01
+2026-05-01T00:50:39.852325,4740,Warning,A user account was locked out. Account: dave,dave,WIN-SERVER01
+2026-05-10T13:17:30.852331,4672,Information,Special privileges assigned to new logon. root,root,WIN-SERVER01
+2026-04-28T03:19:49.852338,4624,Information,An account was successfully logged on. Subject: bob,bob,WIN-SERVER01
+2026-04-20T00:58:49.852344,4648,Information,A logon was attempted using explicit credentials. eve,eve,WIN-SERVER01
+2026-05-11T02:35:29.852351,4648,Information,A logon was attempted using explicit credentials. postgres,postgres,WIN-SERVER01
+2026-04-19T18:55:07.852357,4740,Warning,A user account was locked out. Account: bob,bob,WIN-SERVER01
+2026-05-06T14:37:27.852365,4624,Information,An account was successfully logged on. Subject: eve,eve,WIN-SERVER01
+2026-05-09T03:56:14.852371,1102,Warning,The audit log was cleared. Subject: postgres,postgres,WIN-SERVER01
+2026-05-06T06:45:36.852378,4625,Warning,An account failed to log on. User: root IP: 192.168.1.10,root,WIN-SERVER01
+2026-05-09T04:15:51.852384,4740,Warning,A user account was locked out. Account: postgres,postgres,WIN-SERVER01
+2026-04-24T21:15:37.852420,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-04-24T01:13:16.852443,4740,Warning,A user account was locked out. Account: postgres,postgres,WIN-SERVER01
+2026-04-18T08:14:47.852455,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,alice,WIN-SERVER01
+2026-04-26T06:20:46.852467,5157,Warning,The Windows Filtering Platform blocked a connection from 80.82.77.33,carol,WIN-SERVER01
+2026-05-05T11:35:21.852478,4672,Information,Special privileges assigned to new logon. eve,eve,WIN-SERVER01
+2026-05-09T16:22:04.852488,1102,Warning,The audit log was cleared. Subject: eve,eve,WIN-SERVER01
+2026-05-07T16:48:16.852498,1102,Warning,The audit log was cleared. Subject: postgres,postgres,WIN-SERVER01
+2026-04-13T07:31:24.852508,4625,Warning,An account failed to log on. User: eve IP: 45.33.32.156,eve,WIN-SERVER01
+2026-04-18T18:04:50.852518,4740,Warning,A user account was locked out. Account: carol,carol,WIN-SERVER01
+2026-05-03T11:03:31.852528,4672,Information,Special privileges assigned to new logon. eve,eve,WIN-SERVER01
+2026-04-13T02:39:28.852539,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,bob,WIN-SERVER01
+2026-05-06T09:02:54.852549,4648,Information,A logon was attempted using explicit credentials. root,root,WIN-SERVER01
+2026-04-12T05:22:23.852559,5157,Warning,The Windows Filtering Platform blocked a connection from 10.0.0.22,carol,WIN-SERVER01
+2026-05-05T13:22:05.852568,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,admin,WIN-SERVER01
+2026-05-03T11:06:42.852578,4648,Information,A logon was attempted using explicit credentials. root,root,WIN-SERVER01
+2026-04-29T03:27:16.852587,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-05-11T08:30:23.852597,5156,Information,The Windows Filtering Platform permitted a connection. 45.33.32.156,alice,WIN-SERVER01
+2026-05-11T23:40:51.852607,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-05-12T11:25:14.852617,5157,Warning,The Windows Filtering Platform blocked a connection from 203.0.113.77,eve,WIN-SERVER01
+2026-04-24T22:40:13.852623,4672,Information,Special privileges assigned to new logon. root,root,WIN-SERVER01
+2026-05-09T19:37:54.852635,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-04-12T20:03:22.852642,1102,Warning,The audit log was cleared. Subject: postgres,postgres,WIN-SERVER01
+2026-05-04T02:15:40.852648,4740,Warning,A user account was locked out. Account: postgres,postgres,WIN-SERVER01
+2026-04-22T11:35:30.852656,4624,Information,An account was successfully logged on. Subject: bob,bob,WIN-SERVER01
+2026-05-09T06:44:08.852662,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-04-16T16:57:55.852668,5156,Information,The Windows Filtering Platform permitted a connection. 192.168.1.15,root,WIN-SERVER01
+2026-04-25T19:24:49.852675,4740,Warning,A user account was locked out. Account: eve,eve,WIN-SERVER01
+2026-04-26T12:09:03.852684,4672,Information,Special privileges assigned to new logon. eve,eve,WIN-SERVER01
+2026-04-12T09:55:15.852691,5157,Warning,The Windows Filtering Platform blocked a connection from 10.0.0.22,bob,WIN-SERVER01
+2026-05-02T07:38:35.852698,4648,Information,A logon was attempted using explicit credentials. dave,dave,WIN-SERVER01
+2026-04-20T23:36:48.852704,4740,Warning,A user account was locked out. Account: root,root,WIN-SERVER01
+2026-05-09T01:26:37.852711,4648,Information,A logon was attempted using explicit credentials. alice,alice,WIN-SERVER01
+2026-04-16T05:49:06.852717,4624,Information,An account was successfully logged on. Subject: postgres,postgres,WIN-SERVER01
+2026-04-24T08:50:32.852724,4624,Information,An account was successfully logged on. Subject: root,root,WIN-SERVER01
+2026-04-24T11:13:00.852730,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-04-18T18:18:54.852736,4672,Information,Special privileges assigned to new logon. bob,bob,WIN-SERVER01
+2026-04-23T01:40:16.852743,1102,Warning,The audit log was cleared. Subject: bob,bob,WIN-SERVER01
+2026-04-28T06:56:08.852751,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,admin,WIN-SERVER01
+2026-05-07T01:16:43.852758,4625,Warning,An account failed to log on. User: root IP: 10.0.0.22,root,WIN-SERVER01
+2026-04-30T03:35:04.852766,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-05-12T14:32:37.852772,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-04-24T00:03:44.852778,4740,Warning,A user account was locked out. Account: eve,eve,WIN-SERVER01
+2026-04-18T02:53:42.852785,4740,Warning,A user account was locked out. Account: postgres,postgres,WIN-SERVER01
+2026-04-18T17:39:45.852791,4740,Warning,A user account was locked out. Account: carol,carol,WIN-SERVER01
+2026-04-25T01:59:02.852797,4624,Information,An account was successfully logged on. Subject: bob,bob,WIN-SERVER01
+2026-05-02T10:53:50.852804,4625,Warning,An account failed to log on. User: root IP: 10.0.0.22,root,WIN-SERVER01
+2026-05-07T08:35:50.852810,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,dave,WIN-SERVER01
+2026-05-08T07:45:11.852816,4624,Information,An account was successfully logged on. Subject: root,root,WIN-SERVER01
+2026-04-14T21:58:17.852823,1102,Warning,The audit log was cleared. Subject: alice,alice,WIN-SERVER01
+2026-04-28T07:27:52.852829,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-05-10T16:20:06.852835,4625,Warning,An account failed to log on. User: admin IP: 172.16.5.4,admin,WIN-SERVER01
+2026-04-18T15:45:33.852842,4648,Information,A logon was attempted using explicit credentials. bob,bob,WIN-SERVER01
+2026-04-29T15:39:59.852848,5157,Warning,The Windows Filtering Platform blocked a connection from 103.21.244.0,root,WIN-SERVER01
+2026-05-04T05:45:35.852854,1102,Warning,The audit log was cleared. Subject: root,root,WIN-SERVER01
+2026-04-17T08:27:10.852860,5156,Information,The Windows Filtering Platform permitted a connection. 192.168.1.10,alice,WIN-SERVER01
+2026-04-12T12:00:00.852867,5157,Warning,The Windows Filtering Platform blocked a connection from 192.168.1.15,root,WIN-SERVER01
+2026-04-20T19:11:23.852873,4740,Warning,A user account was locked out. Account: eve,eve,WIN-SERVER01
+2026-04-12T13:06:23.852879,4624,Information,An account was successfully logged on. Subject: postgres,postgres,WIN-SERVER01
+2026-04-15T14:41:28.852887,4648,Information,A logon was attempted using explicit credentials. alice,alice,WIN-SERVER01
+2026-05-08T17:08:34.852893,4672,Information,Special privileges assigned to new logon. carol,carol,WIN-SERVER01
+2026-04-14T22:10:46.852899,4740,Warning,A user account was locked out. Account: alice,alice,WIN-SERVER01
+2026-04-29T16:41:05.852906,4648,Information,A logon was attempted using explicit credentials. admin,admin,WIN-SERVER01
+2026-05-01T18:02:54.852912,4648,Information,A logon was attempted using explicit credentials. carol,carol,WIN-SERVER01
+2026-05-03T09:12:41.852918,4740,Warning,A user account was locked out. Account: postgres,postgres,WIN-SERVER01
+2026-04-17T21:32:03.852925,4624,Information,An account was successfully logged on. Subject: root,root,WIN-SERVER01
+2026-04-13T08:50:30.852931,4648,Information,A logon was attempted using explicit credentials. alice,alice,WIN-SERVER01
+2026-05-09T21:30:07.852937,4648,Information,A logon was attempted using explicit credentials. carol,carol,WIN-SERVER01
+2026-05-10T18:22:35.852944,5156,Information,The Windows Filtering Platform permitted a connection. 172.16.5.4,bob,WIN-SERVER01
+2026-04-15T02:01:24.852950,4648,Information,A logon was attempted using explicit credentials. postgres,postgres,WIN-SERVER01
+2026-04-27T13:44:44.852956,1102,Warning,The audit log was cleared. Subject: eve,eve,WIN-SERVER01
+2026-04-27T06:05:11.852963,4625,Warning,An account failed to log on. User: root IP: 185.220.101.5,root,WIN-SERVER01
+2026-05-05T05:44:13.852969,4648,Information,A logon was attempted using explicit credentials. dave,dave,WIN-SERVER01
+2026-04-19T18:07:39.852975,4625,Warning,An account failed to log on. User: dave IP: 10.0.0.22,dave,WIN-SERVER01
+2026-05-05T13:41:18.852982,4740,Warning,A user account was locked out. Account: bob,bob,WIN-SERVER01
+2026-04-21T03:19:31.852988,1102,Warning,The audit log was cleared. Subject: root,root,WIN-SERVER01
+2026-05-02T08:29:22.852994,4648,Information,A logon was attempted using explicit credentials. eve,eve,WIN-SERVER01
+2026-04-22T20:02:52.853001,5156,Information,The Windows Filtering Platform permitted a connection. 10.0.0.22,alice,WIN-SERVER01
+2026-04-22T19:59:14.853007,4648,Information,A logon was attempted using explicit credentials. alice,alice,WIN-SERVER01
+2026-05-02T21:16:34.853015,5156,Information,The Windows Filtering Platform permitted a connection. 172.16.5.4,carol,WIN-SERVER01
+2026-04-22T03:27:36.853021,4740,Warning,A user account was locked out. Account: root,root,WIN-SERVER01
+2026-04-25T07:45:17.853028,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-04-14T16:36:43.853034,5157,Warning,The Windows Filtering Platform blocked a connection from 203.0.113.77,root,WIN-SERVER01
+2026-04-21T11:04:31.853041,4625,Warning,An account failed to log on. User: postgres IP: 80.82.77.33,postgres,WIN-SERVER01
+2026-04-29T01:51:30.853047,5157,Warning,The Windows Filtering Platform blocked a connection from 203.0.113.77,bob,WIN-SERVER01
+2026-04-28T18:45:29.853053,4740,Warning,A user account was locked out. Account: bob,bob,WIN-SERVER01
+2026-05-03T07:25:29.853061,5157,Warning,The Windows Filtering Platform blocked a connection from 203.0.113.77,carol,WIN-SERVER01
+2026-04-16T05:40:55.853068,5156,Information,The Windows Filtering Platform permitted a connection. 192.168.1.15,carol,WIN-SERVER01
+2026-04-18T22:30:31.853075,4740,Warning,A user account was locked out. Account: alice,alice,WIN-SERVER01
+2026-04-26T20:01:30.853081,4672,Information,Special privileges assigned to new logon. carol,carol,WIN-SERVER01
+2026-05-07T10:42:58.853121,4672,Information,Special privileges assigned to new logon. dave,dave,WIN-SERVER01
+2026-04-25T02:25:10.853132,4648,Information,A logon was attempted using explicit credentials. dave,dave,WIN-SERVER01
+2026-04-12T09:34:40.853140,4624,Information,An account was successfully logged on. Subject: eve,eve,WIN-SERVER01
+2026-04-28T11:44:18.853150,1102,Warning,The audit log was cleared. Subject: admin,admin,WIN-SERVER01
+2026-05-03T23:17:22.853157,4625,Warning,An account failed to log on. User: alice IP: 203.0.113.77,alice,WIN-SERVER01
+2026-05-11T08:44:55.853164,4625,Warning,An account failed to log on. User: dave IP: 203.0.113.77,dave,WIN-SERVER01
+2026-04-30T16:11:38.853171,4740,Warning,A user account was locked out. Account: carol,carol,WIN-SERVER01
+2026-04-16T10:48:50.853177,4740,Warning,A user account was locked out. Account: dave,dave,WIN-SERVER01
+2026-05-08T22:05:27.853185,5156,Information,The Windows Filtering Platform permitted a connection. 203.0.113.77,carol,WIN-SERVER01
+2026-05-08T00:35:16.853191,1102,Warning,The audit log was cleared. Subject: dave,dave,WIN-SERVER01
+2026-04-26T12:19:58.853198,4625,Warning,An account failed to log on. User: alice IP: 198.51.100.1,alice,WIN-SERVER01
+2026-04-21T07:33:12.853206,4740,Warning,A user account was locked out. Account: postgres,postgres,WIN-SERVER01
+2026-05-09T22:31:08.853212,4648,Information,A logon was attempted using explicit credentials. postgres,postgres,WIN-SERVER01
+2026-04-16T13:45:24.853219,5156,Information,The Windows Filtering Platform permitted a connection. 203.0.113.77,alice,WIN-SERVER01
+2026-04-13T23:08:09.853225,4648,Information,A logon was attempted using explicit credentials. admin,admin,WIN-SERVER01
+2026-04-26T18:47:18.853231,4740,Warning,A user account was locked out. Account: eve,eve,WIN-SERVER01
+2026-04-15T00:21:11.853238,4740,Warning,A user account was locked out. Account: root,root,WIN-SERVER01
+2026-04-22T17:57:15.853244,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-04-22T05:31:38.853250,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,eve,WIN-SERVER01
+2026-05-12T18:07:13.853257,4625,Warning,An account failed to log on. User: root IP: 203.0.113.77,root,WIN-SERVER01
+2026-05-05T03:25:22.853263,1102,Warning,The audit log was cleared. Subject: dave,dave,WIN-SERVER01
+2026-04-25T01:59:28.853270,1102,Warning,The audit log was cleared. Subject: bob,bob,WIN-SERVER01
+2026-04-23T18:15:11.853276,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-04-12T14:29:27.853282,4625,Warning,An account failed to log on. User: bob IP: 192.168.1.15,bob,WIN-SERVER01
+2026-04-19T22:50:42.853289,5156,Information,The Windows Filtering Platform permitted a connection. 103.21.244.0,admin,WIN-SERVER01
+2026-05-11T09:00:13.853295,4672,Information,Special privileges assigned to new logon. postgres,postgres,WIN-SERVER01
+2026-04-24T16:51:24.853302,4740,Warning,A user account was locked out. Account: alice,alice,WIN-SERVER01
+2026-04-13T08:02:03.853308,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,bob,WIN-SERVER01
+2026-04-16T00:30:42.853316,5157,Warning,The Windows Filtering Platform blocked a connection from 80.82.77.33,eve,WIN-SERVER01
+2026-04-17T20:32:35.853322,1102,Warning,The audit log was cleared. Subject: eve,eve,WIN-SERVER01
+2026-04-25T04:11:44.853329,4740,Warning,A user account was locked out. Account: carol,carol,WIN-SERVER01
+2026-04-15T05:58:59.853335,4648,Information,A logon was attempted using explicit credentials. root,root,WIN-SERVER01
+2026-04-19T14:32:11.853341,4672,Information,Special privileges assigned to new logon. root,root,WIN-SERVER01
+2026-04-22T09:32:25.853348,4625,Warning,An account failed to log on. User: bob IP: 203.0.113.77,bob,WIN-SERVER01
+2026-05-06T12:58:19.853354,5156,Information,The Windows Filtering Platform permitted a connection. 80.82.77.33,carol,WIN-SERVER01
+2026-04-17T06:55:41.853360,5157,Warning,The Windows Filtering Platform blocked a connection from 80.82.77.33,root,WIN-SERVER01
+2026-05-12T18:40:27.853367,5157,Warning,The Windows Filtering Platform blocked a connection from 10.0.0.22,carol,WIN-SERVER01
+2026-04-25T16:27:25.853373,4672,Information,Special privileges assigned to new logon. eve,eve,WIN-SERVER01
+2026-05-09T23:14:06.853379,4625,Warning,An account failed to log on. User: dave IP: 192.168.1.15,dave,WIN-SERVER01
+2026-04-20T11:18:42.853386,4648,Information,A logon was attempted using explicit credentials. eve,eve,WIN-SERVER01
+2026-05-08T22:00:08.853426,5156,Information,The Windows Filtering Platform permitted a connection. 45.33.32.156,carol,WIN-SERVER01
+2026-05-05T07:01:02.853447,5157,Warning,The Windows Filtering Platform blocked a connection from 203.0.113.77,bob,WIN-SERVER01
+2026-05-12T06:38:11.853458,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,carol,WIN-SERVER01
+2026-04-28T01:01:51.853469,4740,Warning,A user account was locked out. Account: dave,dave,WIN-SERVER01
+2026-05-05T20:58:25.853479,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,alice,WIN-SERVER01
+2026-04-25T04:16:52.853489,5156,Information,The Windows Filtering Platform permitted a connection. 80.82.77.33,postgres,WIN-SERVER01
+2026-04-24T09:12:28.853500,4672,Information,Special privileges assigned to new logon. carol,carol,WIN-SERVER01
+2026-04-17T13:25:41.853582,5157,Warning,The Windows Filtering Platform blocked a connection from 45.33.32.156,eve,WIN-SERVER01
+2026-04-25T10:48:20.853602,5157,Warning,The Windows Filtering Platform blocked a connection from 198.51.100.1,dave,WIN-SERVER01
+2026-04-17T04:15:56.853611,4740,Warning,A user account was locked out. Account: root,root,WIN-SERVER01
+2026-05-02T18:01:12.853618,4672,Information,Special privileges assigned to new logon. postgres,postgres,WIN-SERVER01
+2026-04-19T23:11:29.853625,5157,Warning,The Windows Filtering Platform blocked a connection from 103.21.244.0,dave,WIN-SERVER01
+2026-04-24T20:23:25.853631,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-05-10T16:51:29.853638,5156,Information,The Windows Filtering Platform permitted a connection. 80.82.77.33,postgres,WIN-SERVER01
+2026-04-26T23:44:00.853645,5157,Warning,The Windows Filtering Platform blocked a connection from 80.82.77.33,alice,WIN-SERVER01
+2026-04-24T12:55:18.853651,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,bob,WIN-SERVER01
+2026-04-20T17:27:51.853657,5156,Information,The Windows Filtering Platform permitted a connection. 192.168.1.10,postgres,WIN-SERVER01
+2026-04-20T00:33:43.853664,4672,Information,Special privileges assigned to new logon. eve,eve,WIN-SERVER01
+2026-04-18T04:09:27.853671,4648,Information,A logon was attempted using explicit credentials. admin,admin,WIN-SERVER01
+2026-04-20T10:15:57.853678,4624,Information,An account was successfully logged on. Subject: alice,alice,WIN-SERVER01
+2026-04-28T22:42:18.853684,4672,Information,Special privileges assigned to new logon. bob,bob,WIN-SERVER01
+2026-04-16T16:51:23.853691,4648,Information,A logon was attempted using explicit credentials. dave,dave,WIN-SERVER01
+2026-05-10T18:27:28.853697,5157,Warning,The Windows Filtering Platform blocked a connection from 80.82.77.33,bob,WIN-SERVER01
+2026-04-20T06:44:10.853704,5156,Information,The Windows Filtering Platform permitted a connection. 45.33.32.156,admin,WIN-SERVER01
+2026-05-03T10:41:19.853710,4625,Warning,An account failed to log on. User: carol IP: 198.51.100.1,carol,WIN-SERVER01
+2026-05-10T16:36:39.853716,1102,Warning,The audit log was cleared. Subject: eve,eve,WIN-SERVER01
+2026-04-22T01:47:43.853723,5157,Warning,The Windows Filtering Platform blocked a connection from 172.16.5.4,dave,WIN-SERVER01
+2026-05-04T20:56:26.853729,4672,Information,Special privileges assigned to new logon. bob,bob,WIN-SERVER01
+2026-05-09T16:52:31.853739,5157,Warning,The Windows Filtering Platform blocked a connection from 192.168.1.10,alice,WIN-SERVER01
+2026-04-30T12:51:13.853745,5157,Warning,The Windows Filtering Platform blocked a connection from 192.168.1.10,alice,WIN-SERVER01
+2026-04-12T16:40:24.853752,4625,Warning,An account failed to log on. User: root IP: 103.21.244.0,root,WIN-SERVER01
+2026-04-25T15:30:58.853758,4648,Information,A logon was attempted using explicit credentials. postgres,postgres,WIN-SERVER01
+2026-04-14T07:07:10.853764,4648,Information,A logon was attempted using explicit credentials. root,root,WIN-SERVER01
+2026-05-12T02:50:05.853771,1102,Warning,The audit log was cleared. Subject: carol,carol,WIN-SERVER01
+2026-04-13T12:46:42.853778,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,bob,WIN-SERVER01
+2026-04-27T15:14:55.853786,4625,Warning,An account failed to log on. User: carol IP: 10.0.0.22,carol,WIN-SERVER01
+2026-04-13T00:17:11.853792,1102,Warning,The audit log was cleared. Subject: root,root,WIN-SERVER01
+2026-04-21T04:48:43.853799,4625,Warning,An account failed to log on. User: postgres IP: 45.33.32.156,postgres,WIN-SERVER01
+2026-05-05T06:40:14.853805,4648,Information,A logon was attempted using explicit credentials. root,root,WIN-SERVER01
+2026-05-11T06:01:11.853812,5157,Warning,The Windows Filtering Platform blocked a connection from 45.33.32.156,alice,WIN-SERVER01
+2026-05-10T00:11:44.853818,4672,Information,Special privileges assigned to new logon. bob,bob,WIN-SERVER01
+2026-04-22T15:34:44.853825,4672,Information,Special privileges assigned to new logon. admin,admin,WIN-SERVER01
+2026-05-03T01:25:39.853831,4740,Warning,A user account was locked out. Account: postgres,postgres,WIN-SERVER01
+2026-04-27T21:21:58.853838,4625,Warning,An account failed to log on. User: admin IP: 45.33.32.156,admin,WIN-SERVER01
+2026-05-03T06:02:15.853844,5156,Information,The Windows Filtering Platform permitted a connection. 198.51.100.1,postgres,WIN-SERVER01
+2026-04-16T20:40:59.853850,4672,Information,Special privileges assigned to new logon. alice,alice,WIN-SERVER01
+2026-04-19T20:19:03.853919,5157,Warning,The Windows Filtering Platform blocked a connection from 203.0.113.77,carol,WIN-SERVER01
+2026-05-06T10:19:01.853932,5156,Information,The Windows Filtering Platform permitted a connection. 192.168.1.10,eve,WIN-SERVER01
+2026-05-01T00:09:02.853941,4672,Information,Special privileges assigned to new logon. carol,carol,WIN-SERVER01
+2026-04-12T15:55:50.853949,1102,Warning,The audit log was cleared. Subject: bob,bob,WIN-SERVER01
+2026-04-27T15:16:24.853956,4740,Warning,A user account was locked out. Account: bob,bob,WIN-SERVER01
+2026-04-13T09:39:07.853962,4624,Information,An account was successfully logged on. Subject: alice,alice,WIN-SERVER01
+2026-04-14T14:10:12.853993,4624,Information,An account was successfully logged on. Subject: eve,eve,WIN-SERVER01
+2026-04-16T14:29:06.854006,5156,Information,The Windows Filtering Platform permitted a connection. 198.51.100.1,carol,WIN-SERVER01
+2026-05-08T02:37:25.854015,4648,Information,A logon was attempted using explicit credentials. alice,alice,WIN-SERVER01
+2026-05-06T01:05:06.854022,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,admin,WIN-SERVER01
+2026-04-29T08:28:47.854029,4624,Information,An account was successfully logged on. Subject: admin,admin,WIN-SERVER01
+2026-04-23T21:12:20.854035,4776,Warning,The domain controller attempted to validate credentials. Error: 0xC000006A,postgres,WIN-SERVER01
+2026-05-08T00:08:50.854042,1102,Warning,The audit log was cleared. Subject: alice,alice,WIN-SERVER01
+2026-05-07T06:48:53.854048,4625,Warning,An account failed to log on. User: bob IP: 192.168.1.15,bob,WIN-SERVER01
+2026-04-11T22:36:21.854055,4648,Information,A logon was attempted using explicit credentials. root,root,WIN-SERVER01
+2026-05-03T11:58:28.854061,4672,Information,Special privileges assigned to new logon. eve,eve,WIN-SERVER01
+2026-04-30T15:47:29.854067,4625,Warning,An account failed to log on. User: bob IP: 203.0.113.77,bob,WIN-SERVER01
+2026-04-26T20:22:34.854074,4648,Information,A logon was attempted using explicit credentials. dave,dave,WIN-SERVER01
+2026-05-11T09:41:59.854107,4740,Warning,A user account was locked out. Account: bob,bob,WIN-SERVER01

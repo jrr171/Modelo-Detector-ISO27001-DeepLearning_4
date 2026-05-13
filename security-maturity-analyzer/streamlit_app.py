@@ -61,6 +61,13 @@ def score_color(s):
     if s >  0:  return C["level"][1]
     return C["level"][0]
 
+def hex_rgba(hex_color: str, alpha: float = 1.0) -> str:
+    """Convert #RRGGBB to rgba(r,g,b,alpha) for Plotly compatibility."""
+    h = hex_color.lstrip("#")
+    r, g, b = int(h[0:2],16), int(h[2:4],16), int(h[4:6],16)
+    return f"rgba({r},{g},{b},{alpha})"
+
+
 # ────────────────────────────────────────────────────────────────────────────
 # Page config
 # ────────────────────────────────────────────────────────────────────────────
@@ -264,7 +271,7 @@ with col_radar:
         r=scores_radar + [scores_radar[0]],
         theta=labels_radar + [labels_radar[0]],
         fill="toself",
-        fillcolor=C["primary"] + "33",
+        fillcolor=hex_rgba(C["primary"], 0.2),
         line=dict(color=C["primary"], width=2.5),
         name="Score por dominio",
         hovertemplate="<b>%{theta}</b><br>Score: %{r:.1f}/100<extra></extra>",
@@ -310,12 +317,12 @@ with col_bar1:
     fig_bar = go.Figure()
     fig_bar.add_trace(go.Bar(
         name="Eventos Seguros", x=dom_names_short, y=safe_counts,
-        marker_color=C["success"] + "CC",
+        marker_color=hex_rgba(C["success"], 0.8),
         hovertemplate="<b>%{x}</b><br>Eventos seguros: %{y}<extra></extra>",
     ))
     fig_bar.add_trace(go.Bar(
         name="Eventos de Riesgo", x=dom_names_short, y=risk_counts,
-        marker_color=C["danger"] + "CC",
+        marker_color=hex_rgba(C["danger"], 0.8),
         hovertemplate="<b>%{x}</b><br>Eventos de riesgo: %{y}<extra></extra>",
     ))
     fig_bar.update_layout(
@@ -341,7 +348,7 @@ with col_bar2:
         vals = [max(0, d.breakdown.get(key, 0)) for d in domains]
         fig_stack.add_trace(go.Bar(
             name=comp, y=dom_names_short, x=vals,
-            orientation="h", marker_color=color + "CC",
+            orientation="h", marker_color=hex_rgba(color, 0.8),
             hovertemplate=f"<b>%{{y}}</b><br>{comp}: %{{x:.1f}} pts<extra></extra>",
         ))
     fig_stack.update_layout(

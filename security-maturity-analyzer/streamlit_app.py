@@ -80,117 +80,255 @@ st.set_page_config(
  
 st.markdown("""
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
-  html, body, [class*="css"] {
-      font-family: 'Inter', sans-serif;
-      color: #111111 !important;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-  /* Fondo general */
-  .stApp {
-      background-color: #FFFFFF;
-      color: #111111;
-  }
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
 
-  /* Título principal */
-  .main-title  {
-      font-size: 2.1rem;
-      font-weight: 800;
-      color: #0D47A1;
-      letter-spacing: -0.5px;
-  }
+/* =========================================================
+   FONDO GENERAL DERECHO
+========================================================= */
 
-  /* Subtítulo */
-  .subtitle {
-      font-size: 1rem;
-      color: #1E293B;
-      margin-bottom: 1rem;
-      font-weight: 500;
-  }
+.stApp {
+    background-color: #D6D6D6;
+    color: #111111;
+}
 
-  /* Encabezados de sección */
-  .section-hdr {
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: #0B3C91;
-      border-left: 4px solid #1565C0;
-      padding-left: 10px;
-      margin: 24px 0 12px;
-  }
+/* =========================================================
+   SIDEBAR PRINCIPAL
+========================================================= */
 
-  /* Cards KPI */
-  .kpi-card {
-      background: #F8FAFF;
-      border: 1px solid #BBDEFB;
-      border-radius: 12px;
-      padding: 16px 20px;
-      text-align: center;
-  }
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0057D9 0%, #003C99 100%);
+    border-right: 2px solid #1E4FBF;
+}
 
-  .kpi-val {
-      font-size: 2rem;
-      font-weight: 800;
-      color: #111111;
-  }
+/* Texto sidebar */
+section[data-testid="stSidebar"] * {
+    color: #FFFFFF !important;
+}
 
-  .kpi-lbl {
-      font-size: .85rem;
-      color: #0F172A;
-      font-weight: 700;
-      letter-spacing: .5px;
-  }
+/* Interior sidebar */
+section[data-testid="stSidebar"] .block-container {
+    background-color: #4B4B4B;
+    border-radius: 14px;
+    padding: 14px;
+    margin-top: 10px;
+}
 
-  /* Hallazgos */
-  .finding {
-      background: #FFF3E0;
-      border-left: 4px solid #FF6F00;
-      border-radius: 6px;
-      padding: 8px 14px;
-      margin-bottom: 6px;
-      font-size: .95rem;
-      color: #111111;
-      font-weight: 500;
-  }
+/* =========================================================
+   TITULOS
+========================================================= */
 
-  /* Recomendaciones */
-  .rec {
-      background: #E8F5E9;
-      border-left: 4px solid #388E3C;
-      border-radius: 6px;
-      padding: 8px 14px;
-      margin-bottom: 6px;
-      font-size: .95rem;
-      color: #111111;
-      font-weight: 500;
-  }
+.main-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #003C99;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
 
-  /* Contenedores gráficos */
-  .chart-box {
-      background: #FFFFFF;
-      border: 1px solid #D6E4F0;
-      border-radius: 12px;
-      padding: 16px;
-  }
+.subtitle {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
 
-  /* Texto normal */
-  p, span, div, label {
-      color: #111111 !important;
-  }
+/* =========================================================
+   HEADERS
+========================================================= */
 
-  /* Sidebar */
-  section[data-testid="stSidebar"] * {
-      color: #111111 !important;
-  }
+.section-hdr {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #003C99;
+    border-left: 5px solid #0057D9;
+    padding-left: 10px;
+    margin: 24px 0 12px;
+}
 
-  /* Footer */
-  footer {
-      text-align: center;
-      color: #1E293B !important;
-      font-size: .82rem;
-      margin-top: 40px;
-      font-weight: 500;
-  }
+/* =========================================================
+   KPI CARDS
+========================================================= */
+
+.kpi-card {
+    background: #F4F4F4;
+    border: 1px solid #BDBDBD;
+    border-radius: 14px;
+    padding: 18px 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.kpi-val {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.kpi-lbl {
+    font-size: .85rem;
+    color: #333333;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+/* =========================================================
+   CAJAS GRAFICOS
+========================================================= */
+
+.chart-box {
+    background: #EFEFEF;
+    border: 1px solid #C2C2C2;
+    border-radius: 14px;
+    padding: 16px;
+}
+
+/* =========================================================
+   HALLAZGOS
+========================================================= */
+
+.finding {
+    background: #FFEAEA;
+    border-left: 5px solid #D32F2F;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    color: #222222;
+    font-weight: 500;
+}
+
+/* =========================================================
+   RECOMENDACIONES
+========================================================= */
+
+.rec {
+    background: #EAF7EA;
+    border-left: 5px solid #2E7D32;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    color: #222222;
+    font-weight: 500;
+}
+
+/* =========================================================
+   TABLAS
+========================================================= */
+
+[data-testid="stDataFrame"] {
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    border: 1px solid #BDBDBD;
+    padding: 8px;
+}
+
+/* =========================================================
+   BOTONES
+========================================================= */
+
+.stButton > button {
+    background: linear-gradient(90deg, #0057D9, #003C99);
+    color: white !important;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    padding: 10px 16px;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg, #1565C0, #002F7A);
+    color: white !important;
+}
+
+/* =========================================================
+   DOWNLOAD BUTTONS
+========================================================= */
+
+.stDownloadButton > button {
+    background: linear-gradient(90deg, #0057D9, #003C99);
+    color: white !important;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    padding: 12px 18px;
+}
+
+.stDownloadButton > button:hover {
+    background: linear-gradient(90deg, #1565C0, #002F7A);
+}
+
+/* =========================================================
+   TABS
+========================================================= */
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #BDBDBD;
+    border-radius: 10px 10px 0 0;
+    color: #111111;
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #0057D9 !important;
+    color: white !important;
+}
+
+/* =========================================================
+   INPUTS
+========================================================= */
+
+.stTextArea textarea {
+    background-color: #EFEFEF !important;
+    color: #111111 !important;
+    border-radius: 10px !important;
+}
+
+/* =========================================================
+   EXPANDERS
+========================================================= */
+
+.streamlit-expanderHeader {
+    background-color: #E0E0E0;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    text-align: center;
+    color: #333333 !important;
+    font-size: .85rem;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+/* =========================================================
+   SCROLLBAR
+========================================================= */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7A7A7A;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #D6D6D6;
+}
 
 </style>
 """, unsafe_allow_html=True)
@@ -368,7 +506,7 @@ with col_gauge:
             "threshold": {"line":{"color":lc,"width":4}, "thickness":0.75, "value":result.overall_score},
         }
     ))
-    fig_gauge.update_layout(height=320, margin=dict(l=20,r=20,t=60,b=10), paper_bgcolor="white")
+    fig_gauge.update_layout(height=320, margin=dict(l=20,r=20,t=60,b=10), paper_bgcolor="#EFEFEF")
     st.plotly_chart(fig_gauge, use_container_width=True)
     st.markdown(f'<div style="background:{lc}18;border:1px solid {lc}44;border-radius:8px;padding:10px 14px;font-size:.92em;color:#111;font-weight:500"><b style="color:{lc}">ℹ {lvl_info["name"]}</b><br>{lvl_info["description"]}</div>', unsafe_allow_html=True)
  
@@ -402,13 +540,13 @@ with col_radar:
             radialaxis=dict(visible=True, range=[0,100], tickfont=dict(size=9),
                             gridcolor="#E8EAF6", tickvals=[20,40,60,80,100]),
             angularaxis=dict(tickfont=dict(size=10)),
-            bgcolor="white",
+            bgcolor="#EFEFEF",
         ),
         showlegend=True,
         legend=dict(orientation="h", yanchor="bottom", y=-0.15, x=0.5, xanchor="center"),
         height=360,
         margin=dict(l=60, r=60, t=40, b=60),
-        paper_bgcolor="white",
+        paper_bgcolor="#EFEFEF",
      font=dict(color="#111111")
     )
     st.plotly_chart(fig_radar, use_container_width=True)
@@ -442,7 +580,7 @@ with col_bar1:
         barmode="group",
         height=320,
         margin=dict(l=10,r=10,t=20,b=80),
-        paper_bgcolor="white", plot_bgcolor="white",
+        paper_bgcolor="#EFEFEF", plot_bgcolor="#EFEFEF",
         legend=dict(orientation="h", y=-0.35, x=0.5, xanchor="center"),
         yaxis=dict(title="N° eventos", gridcolor="#F0F0F0"),
         font=dict(color="#111111"),
@@ -469,7 +607,7 @@ with col_bar2:
         barmode="stack", height=320,
         margin=dict(l=10,r=10,t=20,b=80),
         font=dict(color="#111111"),
-        paper_bgcolor="white", plot_bgcolor="white",
+        paper_bgcolor="#EFEFEF", plot_bgcolor="#EFEFEF",
         legend=dict(orientation="h", y=-0.35, x=0.5, xanchor="center"),
         xaxis=dict(title="Puntos", range=[0,100], gridcolor="#F0F0F0"),
     )
@@ -505,7 +643,7 @@ with col_scores:
                         annotation_font=dict(size=9, color=color))
     fig_h.update_layout(
         height=340, margin=dict(l=10,r=60,t=30,b=10),
-        paper_bgcolor="white", plot_bgcolor="white",
+        paper_bgcolor="#EFEFEF", plot_bgcolor="#EFEFEF",
         font=dict(color="#111111"),
         xaxis=dict(range=[0,110], title="Score (0–100)", gridcolor="#F0F0F0"),
         showlegend=False,
@@ -528,7 +666,7 @@ with col_pie:
     ))
     fig_pie.update_layout(
         height=340, margin=dict(l=10,r=10,t=30,b=30),
-        paper_bgcolor="white",
+        paper_bgcolor="#EFEFEF",
         font=dict(color="#111111"),
         annotations=[dict(text=f"<b>{result.total_events:,}</b><br>eventos", x=0.5, y=0.5,
                           font_size=12, showarrow=False)],
@@ -575,7 +713,7 @@ with col_heat:
     ))
     fig_heat.update_layout(
         height=330, margin=dict(l=10,r=10,t=20,b=10),
-        paper_bgcolor="white", plot_bgcolor="white",
+        paper_bgcolor="#EFEFEF", plot_bgcolor="#EFEFEF",
         font=dict(color="#111111"),
         xaxis=dict(tickangle=-15, tickfont=dict(size=10)),
         yaxis=dict(tickfont=dict(size=10)),
@@ -616,7 +754,7 @@ with col_sun:
     fig_sun.update_layout(
         height=350, margin=dict(l=0,r=0,t=10,b=10),
      font=dict(color="#111111"),
-        paper_bgcolor="white",
+        paper_bgcolor="#EFEFEF",
     )
     st.plotly_chart(fig_sun, use_container_width=True)
     st.caption("🟢 Verde = eventos seguros · 🔴 Rojo = eventos de riesgo · Por dominio ISO 27001")
@@ -644,7 +782,7 @@ with col_hist:
     ))
     fig_hist.update_layout(
         height=300, margin=dict(l=10,r=10,t=30,b=10),
-        paper_bgcolor="white", plot_bgcolor="white",
+        paper_bgcolor="#EFEFEF", plot_bgcolor="#EFEFEF",
         font=dict(color="#111111"),
         yaxis=dict(title="N° de dominios", dtick=1, gridcolor="#F0F0F0", range=[0, len(domains)+0.5]),
         xaxis=dict(tickfont=dict(size=9)),
@@ -676,7 +814,7 @@ with col_prog:
         barmode="stack", height=310,
         margin=dict(l=10,r=10,t=20,b=50),
         font=dict(color="#111111"),
-        paper_bgcolor="white", plot_bgcolor="white",
+        paper_bgcolor="#EFEFEF", plot_bgcolor="#EFEFEF",
         legend=dict(orientation="h", y=-0.18, x=0.5, xanchor="center"),
         xaxis=dict(title="Puntos", range=[0,100], gridcolor="#F0F0F0"),
     )

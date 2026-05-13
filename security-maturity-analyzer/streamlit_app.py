@@ -206,12 +206,29 @@ with st.sidebar:
         lo, hi = info["range"]
         rng = f"{lo}–{hi}%" if i > 0 else "0%"
         st.markdown(
-            f"<div style='padding:5px 8px;margin-bottom:4px;border-radius:6px;"
-            f"background:{level_color(i)}22;border-left:3px solid {level_color(i)};'>"
-            f"<b style='color:{level_color(i)}'>Nivel {i}</b> · {rng}<br>"
-            f""<span style='font-size:.8em;color:#111;font-weight:600'>{info['name']}</span>"</div>",
-            unsafe_allow_html=True,
-        )
+    f"""
+    <div style="
+        padding:5px 8px;
+        margin-bottom:4px;
+        border-radius:6px;
+        background:{level_color(i)}22;
+        border-left:3px solid {level_color(i)};
+    ">
+        <b style="color:{level_color(i)}">
+            Nivel {i}
+        </b> · {rng}<br>
+
+        <span style="
+            font-size:.8em;
+            color:#111111;
+            font-weight:600;
+        ">
+            {info['name']}
+        </span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
     st.divider()
     st.caption("ISO/IEC 27001:2013 · COBIT 5 · NTP ISO/IEC 27001:2008")
     st.caption("Comercio Exterior — Tesis 2025")

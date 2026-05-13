@@ -353,8 +353,7 @@ with col_gauge:
     ))
     fig_gauge.update_layout(height=320, margin=dict(l=20,r=20,t=60,b=10), paper_bgcolor="white")
     st.plotly_chart(fig_gauge, use_container_width=True)
-    st.markdown(f'f'<div style="background:{lc}18;border:1px solid {lc}44;border-radius:8px;padding:10px 14px;font-size:.92em;color:#111;font-weight:500">'
-                f'<b style="color:{lc}">ℹ {lvl_info["name"]}</b><br>{lvl_info["description"]}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div style="background:{lc}18;border:1px solid {lc}44;border-radius:8px;padding:10px 14px;font-size:.92em;color:#111;font-weight:500"><b style="color:{lc}">ℹ {lvl_info["name"]}</b><br>{lvl_info["description"]}</div>', unsafe_allow_html=True)
  
 # ── GRÁFICO 2: Radar / Spider de dominios ISO 27001 ──────────────────────────
 with col_radar:

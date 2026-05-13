@@ -81,21 +81,117 @@ st.set_page_config(
 st.markdown("""
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
-  html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
-  .main-title  { font-size:2.1rem; font-weight:800; color:#0D47A1; letter-spacing:-0.5px; }
-  .subtitle    { font-size:.95rem; color:#546E7A; margin-bottom:1rem; }
-  .section-hdr { font-size:1.2rem; font-weight:700; color:#1565C0;
-                 border-left:4px solid #1565C0; padding-left:10px; margin:24px 0 12px; }
-  .kpi-card    { background:#F8FAFF; border:1px solid #BBDEFB; border-radius:12px;
-                 padding:16px 20px; text-align:center; }
-  .kpi-val     { font-size:2rem; font-weight:800; }
-  .kpi-lbl     { font-size:.8rem; color:#78909C; font-weight:600; letter-spacing:.5px; }
-  .finding     { background:#FFF3E0; border-left:4px solid #FF6F00;
-                 border-radius:6px; padding:8px 14px; margin-bottom:6px; font-size:.9rem; }
-  .rec         { background:#E8F5E9; border-left:4px solid #388E3C;
-                 border-radius:6px; padding:8px 14px; margin-bottom:6px; font-size:.9rem; }
-  .chart-box   { background:#fff; border:1px solid #E3EAF5; border-radius:12px; padding:16px; }
-  footer       { text-align:center; color:#90A4AE; font-size:.78rem; margin-top:40px; }
+
+  html, body, [class*="css"] {
+      font-family: 'Inter', sans-serif;
+      color: #111111 !important;
+  }
+
+  /* Fondo general */
+  .stApp {
+      background-color: #FFFFFF;
+      color: #111111;
+  }
+
+  /* Título principal */
+  .main-title  {
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: #0D47A1;
+      letter-spacing: -0.5px;
+  }
+
+  /* Subtítulo */
+  .subtitle {
+      font-size: 1rem;
+      color: #1E293B;
+      margin-bottom: 1rem;
+      font-weight: 500;
+  }
+
+  /* Encabezados de sección */
+  .section-hdr {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0B3C91;
+      border-left: 4px solid #1565C0;
+      padding-left: 10px;
+      margin: 24px 0 12px;
+  }
+
+  /* Cards KPI */
+  .kpi-card {
+      background: #F8FAFF;
+      border: 1px solid #BBDEFB;
+      border-radius: 12px;
+      padding: 16px 20px;
+      text-align: center;
+  }
+
+  .kpi-val {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #111111;
+  }
+
+  .kpi-lbl {
+      font-size: .85rem;
+      color: #0F172A;
+      font-weight: 700;
+      letter-spacing: .5px;
+  }
+
+  /* Hallazgos */
+  .finding {
+      background: #FFF3E0;
+      border-left: 4px solid #FF6F00;
+      border-radius: 6px;
+      padding: 8px 14px;
+      margin-bottom: 6px;
+      font-size: .95rem;
+      color: #111111;
+      font-weight: 500;
+  }
+
+  /* Recomendaciones */
+  .rec {
+      background: #E8F5E9;
+      border-left: 4px solid #388E3C;
+      border-radius: 6px;
+      padding: 8px 14px;
+      margin-bottom: 6px;
+      font-size: .95rem;
+      color: #111111;
+      font-weight: 500;
+  }
+
+  /* Contenedores gráficos */
+  .chart-box {
+      background: #FFFFFF;
+      border: 1px solid #D6E4F0;
+      border-radius: 12px;
+      padding: 16px;
+  }
+
+  /* Texto normal */
+  p, span, div, label {
+      color: #111111 !important;
+  }
+
+  /* Sidebar */
+  section[data-testid="stSidebar"] * {
+      color: #111111 !important;
+  }
+
+  /* Footer */
+  footer {
+      text-align: center;
+      color: #1E293B !important;
+      font-size: .82rem;
+      margin-top: 40px;
+      font-weight: 500;
+  }
+
 </style>
 """, unsafe_allow_html=True)
  
@@ -113,7 +209,7 @@ with st.sidebar:
             f"<div style='padding:5px 8px;margin-bottom:4px;border-radius:6px;"
             f"background:{level_color(i)}22;border-left:3px solid {level_color(i)};'>"
             f"<b style='color:{level_color(i)}'>Nivel {i}</b> · {rng}<br>"
-            f"<span style='font-size:.8em;color:#555'>{info['name']}</span></div>",
+            f""<span style='font-size:.8em;color:#111;font-weight:600'>{info['name']}</span>"</div>",
             unsafe_allow_html=True,
         )
     st.divider()
@@ -257,7 +353,7 @@ with col_gauge:
     ))
     fig_gauge.update_layout(height=320, margin=dict(l=20,r=20,t=60,b=10), paper_bgcolor="white")
     st.plotly_chart(fig_gauge, use_container_width=True)
-    st.markdown(f'<div style="background:{lc}18;border:1px solid {lc}44;border-radius:8px;padding:10px 14px;font-size:.88em;color:#333">'
+    st.markdown(f'f'<div style="background:{lc}18;border:1px solid {lc}44;border-radius:8px;padding:10px 14px;font-size:.92em;color:#111;font-weight:500">'
                 f'<b style="color:{lc}">ℹ {lvl_info["name"]}</b><br>{lvl_info["description"]}</div>', unsafe_allow_html=True)
  
 # ── GRÁFICO 2: Radar / Spider de dominios ISO 27001 ──────────────────────────
@@ -297,6 +393,7 @@ with col_radar:
         height=360,
         margin=dict(l=60, r=60, t=40, b=60),
         paper_bgcolor="white",
+     font=dict(color="#111111")
     )
     st.plotly_chart(fig_radar, use_container_width=True)
  
@@ -332,6 +429,7 @@ with col_bar1:
         paper_bgcolor="white", plot_bgcolor="white",
         legend=dict(orientation="h", y=-0.35, x=0.5, xanchor="center"),
         yaxis=dict(title="N° eventos", gridcolor="#F0F0F0"),
+        font=dict(color="#111111"),
         xaxis=dict(tickangle=-25),
     )
     st.plotly_chart(fig_bar, use_container_width=True)
@@ -354,6 +452,7 @@ with col_bar2:
     fig_stack.update_layout(
         barmode="stack", height=320,
         margin=dict(l=10,r=10,t=20,b=80),
+        font=dict(color="#111111"),
         paper_bgcolor="white", plot_bgcolor="white",
         legend=dict(orientation="h", y=-0.35, x=0.5, xanchor="center"),
         xaxis=dict(title="Puntos", range=[0,100], gridcolor="#F0F0F0"),
@@ -391,6 +490,7 @@ with col_scores:
     fig_h.update_layout(
         height=340, margin=dict(l=10,r=60,t=30,b=10),
         paper_bgcolor="white", plot_bgcolor="white",
+        font=dict(color="#111111"),
         xaxis=dict(range=[0,110], title="Score (0–100)", gridcolor="#F0F0F0"),
         showlegend=False,
     )
@@ -413,6 +513,7 @@ with col_pie:
     fig_pie.update_layout(
         height=340, margin=dict(l=10,r=10,t=30,b=30),
         paper_bgcolor="white",
+        font=dict(color="#111111"),
         annotations=[dict(text=f"<b>{result.total_events:,}</b><br>eventos", x=0.5, y=0.5,
                           font_size=12, showarrow=False)],
         showlegend=False,
@@ -459,6 +560,7 @@ with col_heat:
     fig_heat.update_layout(
         height=330, margin=dict(l=10,r=10,t=20,b=10),
         paper_bgcolor="white", plot_bgcolor="white",
+        font=dict(color="#111111"),
         xaxis=dict(tickangle=-15, tickfont=dict(size=10)),
         yaxis=dict(tickfont=dict(size=10)),
     )
@@ -497,6 +599,7 @@ with col_sun:
     ))
     fig_sun.update_layout(
         height=350, margin=dict(l=0,r=0,t=10,b=10),
+     font=dict(color="#111111"),
         paper_bgcolor="white",
     )
     st.plotly_chart(fig_sun, use_container_width=True)
@@ -526,6 +629,7 @@ with col_hist:
     fig_hist.update_layout(
         height=300, margin=dict(l=10,r=10,t=30,b=10),
         paper_bgcolor="white", plot_bgcolor="white",
+        font=dict(color="#111111"),
         yaxis=dict(title="N° de dominios", dtick=1, gridcolor="#F0F0F0", range=[0, len(domains)+0.5]),
         xaxis=dict(tickfont=dict(size=9)),
         showlegend=False,
@@ -555,6 +659,7 @@ with col_prog:
     fig_gap.update_layout(
         barmode="stack", height=310,
         margin=dict(l=10,r=10,t=20,b=50),
+        font=dict(color="#111111"),
         paper_bgcolor="white", plot_bgcolor="white",
         legend=dict(orientation="h", y=-0.18, x=0.5, xanchor="center"),
         xaxis=dict(title="Puntos", range=[0,100], gridcolor="#F0F0F0"),
